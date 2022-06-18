@@ -1,0 +1,86 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		splash_screen
+	 *	@date 		1655561316054
+	 *	@title 		Converting Desain
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<RelativeLayout android:id="@+id/splash_screen"
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<RelativeLayout android:id="@+id/page_splash_screen_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View
+					android:id="@+id/__bg__splash_screen_ek2"
+					android:layout_width="392.5dp"
+					android:layout_height="896dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/__bg__splash_screen_ek2_shape" />
+
+				<ImageView
+					android:id="@+id/background_splash"
+					android:layout_width="393dp"
+					android:layout_height="896dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="-15dp"
+					android:background="@drawable/bg_splash_screen" />
+
+				<ImageView
+					android:id="@+id/logo_moment_rev2_1"
+					android:layout_width="109dp"
+					android:layout_height="82dp"
+					android:layout_marginStart="52dp"
+					android:layout_marginTop="305dp"
+					android:contentDescription="logo_moment_rev2_1"
+					android:src="@drawable/logo_moment_rev2_1" />
+
+				<TextView
+					android:id="@+id/simple_money_management_and_to_do_list_"
+					android:layout_width="360dp"
+					android:layout_height="31dp"
+					android:layout_marginLeft="18dp"
+					android:layout_marginTop="430dp"
+					android:fontFamily="@font/montserrat_semibold"
+					android:text="@string/jargon"
+					android:textColor="@color/__bg__splash_screen_ek2_color"
+					android:textSize="16sp"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/text_vmoment"
+					android:layout_width="180dp"
+					android:layout_height="50dp"
+					android:layout_marginLeft="160dp"
+					android:layout_marginTop="335dp"
+					android:fontFamily="@font/montserrat_bold"
+					android:text="@string/title_text"
+					android:textColor="@color/__bg__splash_screen_ek2_color"
+					android:textSize="40sp"
+					android:textStyle="bold" />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</RelativeLayout>
+</HorizontalScrollView>

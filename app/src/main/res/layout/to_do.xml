@@ -1,0 +1,719 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		splash_screen
+	 *	@date 		1655561316054
+	 *	@title 		Converting Desain
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/to_do" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_to_do_ek3"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View
+					android:id="@+id/_bg__to_do_ek4"
+					android:layout_width="385dp"
+					android:layout_height="896dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__to_do_ek4_shape" />
+
+
+				<RelativeLayout android:id="@+id/activities_1_ek1"
+					android:layout_marginTop="164dp"
+					android:layout_marginStart="22dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/bg_kegiatan"
+						android:background="@drawable/bg_kegiatan_shape"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="342dp"
+						android:layout_height="145dp" />
+
+					<TextView
+						android:id="@+id/kegiatan_senin"
+						android:layout_width="140dp"
+						android:layout_height="18dp"
+						android:layout_marginLeft="16dp"
+						android:layout_marginTop="12dp"
+						android:fontFamily="@font/montserrat_bold"
+						android:text="@string/kegiatan_senin_string"
+						android:textColor="@color/__bg__splash_screen_ek2_color"
+						android:textSize="14sp"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/total_kegiatan___5"
+						android:layout_width="115dp"
+						android:layout_height="18dp"
+						android:layout_marginLeft="221dp"
+						android:layout_marginTop="14dp"
+						android:fontFamily="@font/montserrat_bold"
+						android:text="@string/total_kegiatan___5_string"
+						android:textColor="@color/__bg__splash_screen_ek2_color"
+						android:textSize="11sp"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/belanja_bulanan_ek1"
+						android:layout_width="140dp"
+						android:layout_height="23dp"
+						android:layout_marginLeft="17dp"
+						android:layout_marginTop="42dp"
+						android:fontFamily="@font/montserrat_light"
+						android:text="@string/belanja_bulanan_ek1_string"
+						android:textColor="@color/__bg__splash_screen_ek2_color"
+						android:textSize="12sp" />
+
+					<TextView
+						android:id="@+id/beli_makan_kucing_ek1"
+						android:layout_width="141dp"
+						android:layout_height="23dp"
+						android:layout_marginLeft="16dp"
+						android:layout_marginTop="66dp"
+						android:fontFamily="@font/montserrat_light"
+						android:text="@string/beli_makanan_kucing_ek1_string"
+						android:textColor="@color/__bg__splash_screen_ek2_color"
+						android:textSize="12sp" />
+
+					<TextView
+						android:id="@+id/beli_minum"
+						android:layout_width="87dp"
+						android:layout_height="23dp"
+						android:layout_marginLeft="16dp"
+						android:layout_marginTop="91dp"
+						android:fontFamily="@font/montserrat_light"
+						android:text="@string/beli_minum_string"
+						android:textColor="@color/__bg__splash_screen_ek2_color"
+						android:textSize="12sp" />
+
+					<ImageView
+						android:id="@+id/rectangle_11"
+						android:layout_width="110dp"
+						android:layout_height="30dp"
+						android:layout_marginStart="221dp"
+						android:layout_marginTop="100dp"
+						android:contentDescription="rectangle_11"
+						android:src="@drawable/rectangle_11" />
+
+					<TextView
+						android:id="@+id/detail"
+						android:layout_width="46dp"
+						android:layout_height="15dp"
+						android:layout_marginLeft="257dp"
+						android:layout_marginTop="107dp"
+						android:fontFamily="@font/montserrat_semibold"
+						android:text="@string/detail_string"
+						android:textColor="@color/don_t_have_an_account__color"
+						android:textSize="12sp"
+						android:textStyle="bold" />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/activities_2_ek1"
+					android:layout_marginTop="323dp"
+					android:layout_marginStart="23dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View
+						android:id="@+id/bg_kegiatan_ek1"
+						android:layout_width="342dp"
+						android:layout_height="145dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:background="@drawable/bg_kegiatan_ek1_shape" />
+
+					<TextView
+						android:id="@+id/kegiatan_selasa"
+						android:layout_width="140dp"
+						android:layout_height="18dp"
+						android:layout_marginLeft="16dp"
+						android:layout_marginTop="12dp"
+						android:fontFamily="@font/montserrat_bold"
+						android:text="@string/kegiatan_selasa_string"
+						android:textColor="@color/__bg__splash_screen_ek2_color"
+						android:textSize="14sp"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/total_kegiatan___5_ek1"
+						android:layout_width="115dp"
+						android:layout_height="18dp"
+						android:layout_marginLeft="221dp"
+						android:layout_marginTop="14dp"
+						android:fontFamily="@font/montserrat_bold"
+						android:text="@string/total_kegiatan___5_ek1_string"
+						android:textColor="@color/__bg__splash_screen_ek2_color"
+						android:textSize="12sp"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/belanja_bulanan_ek3"
+						android:layout_width="140dp"
+						android:layout_height="23dp"
+						android:layout_marginLeft="17dp"
+						android:layout_marginTop="42dp"
+						android:fontFamily="@font/montserrat_light"
+						android:text="@string/belanja_bulanan_ek1_string"
+						android:textColor="@color/__bg__splash_screen_ek2_color"
+						android:textSize="12sp" />
+
+					<TextView
+						android:id="@+id/beli_makan_kucing_ek3"
+						android:layout_width="141dp"
+						android:layout_height="23dp"
+						android:layout_marginLeft="16dp"
+						android:layout_marginTop="66dp"
+						android:fontFamily="@font/montserrat_light"
+						android:text="@string/beli_makanan_kucing_ek1_string"
+						android:textColor="@color/__bg__splash_screen_ek2_color"
+						android:textSize="12sp" />
+
+					<ImageView android:id="@+id/rectangle_12"
+						android:src="@drawable/rectangle_12"
+						android:contentDescription="rectangle_12"
+						android:layout_marginStart="221dp"
+						android:layout_marginTop="102dp"
+						android:layout_width="110dp"
+						android:layout_height="30dp" />
+
+					<TextView
+						android:id="@+id/detail_bg_ek2"
+						android:layout_width="46dp"
+						android:layout_height="15dp"
+						android:layout_marginLeft="257dp"
+						android:layout_marginTop="107dp"
+						android:fontFamily="@font/montserrat_semibold"
+						android:text="@string/detail_ek1_string"
+						android:textColor="@color/don_t_have_an_account__color"
+						android:textSize="12sp"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/beli_minum_ek1"
+						android:layout_width="87dp"
+						android:layout_height="23dp"
+						android:layout_marginLeft="16dp"
+						android:layout_marginTop="91dp"
+						android:fontFamily="@font/montserrat_light"
+						android:text="@string/beli_minum_string"
+						android:textColor="@color/__bg__splash_screen_ek2_color"
+						android:textSize="12sp"/>
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/activities_3_ek1"
+					android:layout_marginTop="482dp"
+					android:layout_marginStart="22dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/bg_kegiatan_ek2"
+						android:background="@drawable/bg_kegiatan_ek2_shape"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="342dp"
+						android:layout_height="145dp" />
+
+					<TextView
+						android:id="@+id/kegiatan_rabu"
+						android:layout_width="140dp"
+						android:layout_height="18dp"
+						android:layout_marginLeft="16dp"
+						android:layout_marginTop="12dp"
+						android:fontFamily="@font/montserrat_bold"
+						android:text="@string/kegiatan_rabu_string"
+						android:textColor="@color/__bg__splash_screen_ek2_color"
+						android:textSize="14sp"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/total_kegiatan___5_ek3"
+						android:layout_width="115dp"
+						android:layout_height="18dp"
+						android:layout_marginLeft="221dp"
+						android:layout_marginTop="14dp"
+						android:fontFamily="@font/montserrat_bold"
+						android:text="@string/total_kegiatan___5_ek1_string"
+						android:textColor="@color/__bg__splash_screen_ek2_color"
+						android:textSize="12sp"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/belanja_bulanan_ek"
+						android:layout_width="140dp"
+						android:layout_height="23dp"
+						android:layout_marginLeft="17dp"
+						android:layout_marginTop="42dp"
+						android:fontFamily="@font/montserrat_light"
+						android:text="@string/belanja_bulanan_ek1_string"
+						android:textColor="@color/__bg__splash_screen_ek2_color"
+						android:textSize="12sp" />
+
+					<TextView
+						android:id="@+id/beli_makan_kucing_ek2"
+						android:layout_width="141dp"
+						android:layout_height="23dp"
+						android:layout_marginLeft="16dp"
+						android:layout_marginTop="66dp"
+						android:fontFamily="@font/montserrat_light"
+						android:text="@string/beli_makanan_kucing_ek1_string"
+						android:textColor="@color/__bg__splash_screen_ek2_color"
+						android:textSize="12sp" />
+
+					<ImageView android:id="@+id/rectangle_15"
+						android:src="@drawable/rectangle_12"
+						android:contentDescription="rectangle_12"
+						android:layout_marginStart="221dp"
+						android:layout_marginTop="102dp"
+						android:layout_width="110dp"
+						android:layout_height="30dp" />
+
+					<TextView
+						android:id="@+id/detail_bg_ek3"
+						android:layout_width="46dp"
+						android:layout_height="15dp"
+						android:layout_marginLeft="257dp"
+						android:layout_marginTop="107dp"
+						android:fontFamily="@font/montserrat_semibold"
+						android:text="@string/detail_ek1_string"
+						android:textColor="@color/don_t_have_an_account__color"
+						android:textSize="12sp"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/beli_minum_ek3"
+						android:layout_width="87dp"
+						android:layout_height="23dp"
+						android:layout_marginLeft="16dp"
+						android:layout_marginTop="91dp"
+						android:fontFamily="@font/montserrat_light"
+						android:text="@string/beli_minum_string"
+						android:textColor="@color/__bg__splash_screen_ek2_color"
+						android:textSize="12sp"/>
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/navbar"
+					android:layout_marginTop="802dp"
+					android:layout_marginStart="15dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View
+						android:id="@+id/background_navbar"
+						android:layout_width="356dp"
+						android:layout_height="70dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:background="@drawable/background_navbar_shape" />
+
+
+					<RelativeLayout android:id="@+id/navbar_icon"
+						android:layout_marginTop="9dp"
+						android:layout_marginStart="18dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+
+						<RelativeLayout android:id="@+id/home_ek3"
+							android:layout_marginTop="0dp"
+							android:layout_marginStart="0dp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							>
+
+							<ImageView
+								android:id="@+id/home_icon"
+								android:layout_width="25dp"
+								android:layout_height="25dp"
+								android:layout_marginStart="9dp"
+								android:layout_marginTop="7dp"
+								android:contentDescription="home_icon"
+								android:onClick="home"
+								android:src="@drawable/home_fig" />
+
+							<TextView
+								android:id="@+id/home_ek4"
+								android:layout_width="42dp"
+								android:layout_height="15dp"
+								android:layout_marginLeft="2dp"
+								android:layout_marginTop="40dp"
+								android:fontFamily="@font/montserrat_semibold"
+								android:text="@string/home_ek4_string"
+								android:textColor="@color/__bg__splash_screen_ek2_color"
+								android:textSize="12sp"
+								android:textStyle="bold" />
+
+						</RelativeLayout>
+
+						<View
+							android:id="@+id/home_bg"
+							android:layout_width="42dp"
+							android:layout_height="42dp"
+							android:layout_marginStart="88dp"
+							android:layout_marginTop="-2dp"
+							android:background="@drawable/home_bg_shape" />
+
+						<RelativeLayout android:id="@+id/to_do_profile"
+							android:layout_marginTop="6dp"
+							android:layout_marginStart="90dp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							>
+
+							<TextView
+								android:id="@+id/to_do_ek1"
+								android:layout_width="42dp"
+								android:layout_height="15dp"
+								android:layout_marginLeft="3dp"
+								android:layout_marginTop="34dp"
+								android:fontFamily="@font/montserrat_semibold"
+								android:text="@string/to_do_ek1_string"
+								android:textColor="@color/__bg__splash_screen_ek2_color"
+								android:textSize="12sp"
+								android:textStyle="bold" />
+
+							<ImageView
+								android:id="@+id/to_do_icon"
+								android:layout_width="25dp"
+								android:layout_height="25dp"
+								android:layout_marginStart="6dp"
+								android:layout_marginTop="0dp"
+								android:contentDescription="to_do_icon"
+								android:src="@drawable/to_do_or" />
+
+						</RelativeLayout>
+
+
+						<RelativeLayout android:id="@+id/finance_ek1"
+							android:layout_marginTop="6dp"
+							android:layout_marginStart="175dp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							>
+
+							<TextView
+								android:id="@+id/finance_ek2"
+								android:layout_width="55dp"
+								android:layout_height="15dp"
+								android:layout_marginLeft="2dp"
+								android:layout_marginTop="32dp"
+								android:fontFamily="@font/montserrat_semibold"
+								android:text="@string/finance_ek2_string"
+								android:textColor="@color/__bg__splash_screen_ek2_color"
+								android:textSize="12sp"
+								android:textStyle="bold" />
+
+							<ImageView
+								android:id="@+id/finance_icon"
+								android:layout_width="25dp"
+								android:layout_height="25dp"
+								android:layout_marginStart="12dp"
+								android:layout_marginTop="0dp"
+								android:contentDescription="finance_icon"
+								android:onClick="finance"
+								android:src="@drawable/finance_fig" />
+
+						</RelativeLayout>
+
+
+						<RelativeLayout android:id="@+id/profile"
+							android:layout_marginTop="6dp"
+							android:layout_marginStart="275dp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							>
+
+							<ImageView
+								android:id="@+id/profile_icon"
+								android:layout_width="25dp"
+								android:layout_height="25dp"
+								android:layout_marginStart="10dp"
+								android:layout_marginTop="0dp"
+								android:contentDescription="profile_icon"
+								android:onClick="profile"
+								android:src="@drawable/user_fig" />
+
+							<TextView
+								android:id="@+id/profile_ek1"
+								android:layout_width="45dp"
+								android:layout_height="15dp"
+								android:layout_marginLeft="3dp"
+								android:layout_marginTop="32dp"
+								android:fontFamily="@font/montserrat_semibold"
+								android:text="@string/profile_ek1_string"
+								android:textColor="@color/__bg__splash_screen_ek2_color"
+								android:textSize="12sp"
+								android:textStyle="bold" />
+
+						</RelativeLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+				<TextView
+					android:id="@+id/semua"
+					android:layout_width="89dp"
+					android:layout_height="22dp"
+					android:layout_marginLeft="19dp"
+					android:layout_marginTop="126dp"
+					android:fontFamily="@font/montserrat_bold"
+					android:text="@string/semua_string"
+					android:textColor="@color/don_t_have_an_account__color"
+					android:textSize="18sp"
+					android:textStyle="bold" />
+
+
+				<RelativeLayout android:id="@+id/group_29"
+					android:layout_marginTop="714dp"
+					android:layout_marginStart="284dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/ellipse_6"
+						android:src="@drawable/ellipse_6"
+						android:contentDescription="ellipse_6"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="70dp"
+						android:layout_height="70dp" />
+
+					<ImageView android:id="@+id/ellipse_7"
+						android:src="@drawable/ellipse_7"
+						android:contentDescription="ellipse_7"
+						 android:layout_marginStart="22dp"
+						android:layout_marginTop="22dp"
+						android:layout_width="26.25dp"
+						android:layout_height="26.25dp" />
+
+				</RelativeLayout>
+
+				<ImageView
+					android:id="@+id/vector_ek1"
+					android:layout_width="393dp"
+					android:layout_height="104dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="-1dp"
+					android:contentDescription="vector_ek1"
+					android:src="@drawable/vector" />
+
+
+				<RelativeLayout android:id="@+id/search_bar_ek1"
+					android:layout_marginTop="19dp"
+					android:layout_marginStart="14dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/rectangle_7_ek1"
+						android:src="@drawable/rectangle_7_ek1"
+						android:contentDescription="rectangle_7_ek1"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="357dp"
+						android:layout_height="48dp" />
+
+					<ImageView android:id="@+id/search_1_ek1"
+						android:src="@drawable/search_1_ek1"
+						android:contentDescription="search_1_ek1"
+						 android:layout_marginStart="317dp"
+						android:layout_marginTop="8dp"
+						android:layout_width="30dp"
+						android:layout_height="30dp" />
+
+					<EditText
+						android:id="@+id/cari_judul_to_do_atau_finance____ek1"
+						android:layout_width="290dp"
+						android:layout_height="40dp"
+						android:layout_marginLeft="20dp"
+						android:layout_marginTop="6dp"
+						android:background="@null"
+						android:fontFamily="@font/montserrat_light"
+						android:text="@string/cari_judul_to_do_atau_finance____ek1_string"
+						android:textColor="@color/password_color"
+						android:textSize="11sp" />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/filter_bar"
+					android:layout_marginTop="83dp"
+					android:layout_marginStart="40dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+
+					<RelativeLayout android:id="@+id/semua_ek1"
+						android:layout_marginTop="0dp"
+						android:layout_marginStart="0dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<ImageView android:id="@+id/semua_shape"
+							android:src="@drawable/semua_shape"
+							android:contentDescription="semua_shape"
+							 android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="59dp"
+							android:layout_height="27dp" />
+
+						<TextView
+							android:id="@+id/semua_ek2"
+							android:layout_width="51dp"
+							android:layout_height="20.5dp"
+							android:layout_gravity="center_horizontal|center"
+							android:layout_marginLeft="4dp"
+							android:layout_marginTop="3dp"
+							android:fontFamily="@font/montserrat_bold"
+							android:gravity="center"
+							android:text="@string/semua_ek2_string"
+							android:textColor="@color/__bg__splash_screen_ek2_color"
+							android:textSize="11sp"
+							android:textStyle="bold" />
+
+					</RelativeLayout>
+
+
+					<RelativeLayout android:id="@+id/bulan_ini"
+						android:layout_marginTop="0dp"
+						android:layout_marginStart="68dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<ImageView android:id="@+id/bulan_ini_shape"
+							android:src="@drawable/bulan_ini_shape"
+							android:contentDescription="bulan_ini_shape"
+							 android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="73dp"
+							android:layout_height="27dp" />
+
+						<TextView
+							android:id="@+id/bulan_ini_ek1"
+							android:layout_width="60dp"
+							android:layout_height="20.5dp"
+							android:layout_gravity="center_horizontal|center"
+							android:layout_marginLeft="7dp"
+							android:layout_marginTop="3dp"
+							android:fontFamily="@font/montserrat_light"
+							android:gravity="center"
+							android:text="@string/bulan_ini_ek1_string"
+							android:textColor="@color/don_t_have_an_account__color"
+							android:textSize="11sp" />
+
+					</RelativeLayout>
+
+
+					<RelativeLayout android:id="@+id/hari_ini"
+						android:layout_marginTop="0dp"
+						android:layout_marginStart="233dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<ImageView android:id="@+id/shape_hari_ini"
+							android:src="@drawable/shape_hari_ini"
+							android:contentDescription="shape_hari_ini"
+							 android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="73dp"
+							android:layout_height="27dp" />
+
+						<TextView
+							android:id="@+id/hari_ini_ek1"
+							android:layout_width="50dp"
+							android:layout_height="20.5dp"
+							android:layout_gravity="center_horizontal|center"
+							android:layout_marginLeft="12dp"
+							android:layout_marginTop="3dp"
+							android:fontFamily="@font/montserrat_light"
+							android:gravity="center"
+							android:text="@string/hari_ini_ek1_string"
+							android:textColor="@color/don_t_have_an_account__color"
+							android:textSize="11sp" />
+
+					</RelativeLayout>
+
+
+					<RelativeLayout android:id="@+id/bulan_lalu"
+						android:layout_marginTop="0dp"
+						android:layout_marginStart="150dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<ImageView android:id="@+id/shape_bulan_lalu"
+							android:src="@drawable/shape_bulan_lalu"
+							android:contentDescription="shape_bulan_lalu"
+							 android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="73dp"
+							android:layout_height="27dp" />
+
+						<TextView
+							android:id="@+id/bulan_lalu_ek1"
+							android:layout_width="67dp"
+							android:layout_height="20.5dp"
+							android:layout_gravity="center_horizontal|center"
+							android:layout_marginLeft="5dp"
+							android:layout_marginTop="3dp"
+							android:fontFamily="@font/montserrat_light"
+							android:gravity="center"
+							android:text="@string/bulan_lalu_ek1_string"
+							android:textColor="@color/don_t_have_an_account__color"
+							android:textSize="11sp" />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "489282975416",
+    "firebase_url": "https://moment-acfba-default-rtdb.firebaseio.com",
+    "project_id": "moment-acfba",
+    "storage_bucket": "moment-acfba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489282975416:android:395d49c32e55b39ffba64d",
+        "android_client_info": {
+          "package_name": "com.controlv.moment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489282975416-l2a0rlb7r0fk52fq9khs78dlt03epfnc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkzjg0UzXjMwlFJShAT9KDJlccLTcZcM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489282975416-l2a0rlb7r0fk52fq9khs78dlt03epfnc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

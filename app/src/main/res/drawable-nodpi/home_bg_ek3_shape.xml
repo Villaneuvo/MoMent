@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- home_bg_ek3 from your XD file. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="oval" >
+	<stroke android:color="#000000" android:width="1dp" />
+	<solid android:color="@color/__bg__splash_screen_ek2_color" />
+</shape>
+

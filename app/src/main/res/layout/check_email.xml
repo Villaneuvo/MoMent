@@ -1,0 +1,139 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		splash_screen
+	 *	@date 		1655561316054
+	 *	@title 		Converting Desain
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<RelativeLayout android:id="@+id/check_email"
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<RelativeLayout android:id="@+id/page_check_email_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View
+					android:id="@+id/bg_check_email"
+					android:layout_width="392.5dp"
+					android:layout_height="896dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/__bg__splash_screen_ek2_shape" />
+
+				<ImageView
+					android:id="@+id/bg_check_email_gradient"
+					android:layout_width="392.5dp"
+					android:layout_height="896dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="-15dp"
+					android:contentDescription="top_background_ek3"
+					android:background="@drawable/bg_splash_screen" />
+
+
+
+				<ImageView android:id="@+id/check_email_image"
+					android:src="@drawable/check_email_image"
+					android:contentDescription="check_email_image"
+					 android:layout_marginStart="27dp"
+					android:layout_marginTop="82dp"
+					android:layout_width="331dp"
+					android:layout_height="200dp" />
+
+
+				<RelativeLayout android:id="@+id/title_field_ek3"
+					android:layout_marginTop="307dp"
+					android:layout_marginStart="15dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<TextView
+						android:id="@+id/moment_ek2"
+						android:layout_width="278dp"
+						android:layout_height="126dp"
+						android:layout_marginLeft="13dp"
+						android:layout_marginTop="0dp"
+						android:fontFamily="@font/montserrat_bold"
+						android:text="@string/moment_ek2_string"
+						android:textColor="@color/__bg__splash_screen_ek2_color"
+						android:textSize="40sp"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/we_have_sent_a_password_recovery_instruction_to_your_email__please_check_your_email"
+						android:layout_width="362dp"
+						android:layout_height="44dp"
+						android:layout_gravity="center_horizontal|center"
+						android:layout_marginLeft="-2dp"
+						android:layout_marginTop="110dp"
+						android:fontFamily="@font/montserrat_semibold"
+						android:gravity="center"
+						android:text="@string/we_have_sent_a_password_recovery_instruction_to_your_email__please_check_your_email_string"
+						android:textColor="@color/__bg__splash_screen_ek2_color"
+						android:textSize="14sp"
+						android:textStyle="bold" />
+
+				</RelativeLayout>
+
+
+
+				<RelativeLayout android:id="@+id/submit_button"
+					android:layout_marginTop="700dp"
+					android:layout_marginStart="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView
+						android:id="@+id/log_in_button_ek3"
+						android:layout_width="346dp"
+						android:layout_height="48.63dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:contentDescription="log_in_button_ek3"
+						android:onClick="createPassword"
+						android:src="@drawable/log_in_button_ek3" />
+
+					<TextView
+						android:id="@+id/submit_ek1"
+						android:layout_width="108.23dp"
+						android:layout_height="31dp"
+						android:layout_gravity="center_horizontal|center"
+						android:layout_marginLeft="117dp"
+						android:layout_marginTop="5dp"
+						android:fontFamily="@font/montserrat_semibold"
+						android:gravity="center"
+						android:text="@string/submit_ek1_string"
+						android:textColor="@color/don_t_have_an_account__color"
+						android:textSize="16sp"
+						android:textStyle="bold" />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+
+
+
+		</RelativeLayout>
+
+	</RelativeLayout>
+</HorizontalScrollView>
