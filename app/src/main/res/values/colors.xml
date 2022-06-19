@@ -33,4 +33,10 @@
 	<color name="_bg__set_task_ek2_color">#FFFFFF</color>
 	<color name="kegiatan_kamis_color">#000000</color>
 	<color name="eg__push_up__sit_up__lay_up_color">#565656</color>
+	<color name="_bg__transaction_template_ek2_color">#000000</color>
+	<color name="transaksi_color">#FFFFFF</color>
+	<color name="background_navbar_color">#2C1160</color>
+	<color name="_13__april_2022_color">#565656</color>
+	<color name="rectangle_9080_color">#47248A</color>
+	<color name="ellipse_7_color">#39206A</color>
 </resources>

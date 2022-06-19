@@ -52,6 +52,21 @@ public class finance_activity extends Activity {
 		Intent i = new Intent(finance_activity.this, profile_activity.class);
 		startActivity(i);
 	}
+
+	public void postTransaction(View view){
+		Intent i = new Intent(finance_activity.this, transaction_template_activity.class);
+		startActivity(i);
+	}
+
+	public void postLimit(View view){
+		Intent i = new Intent(finance_activity.this, set_limit_template_activity.class);
+		startActivity(i);
+	}
+
+	public void postAnalysis(View view){
+		Intent i = new Intent(finance_activity.this, analysis_activity.class);
+		startActivity(i);
+	}
 }
 	
 	

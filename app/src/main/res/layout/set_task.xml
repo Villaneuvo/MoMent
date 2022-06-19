@@ -273,12 +273,13 @@
 						android:textColor="@color/kegiatan_kamis_color"
 						android:textSize="9sp" />
 
-					<View   android:id="@+id/line_time"
-						android:background="@drawable/line_time_shape"
-						 android:layout_marginStart="14dp"
-						android:layout_marginTop="75dp"
+					<View
+						android:id="@+id/line_time"
 						android:layout_width="290dp"
-						android:layout_height="1dp" />
+						android:layout_height="1dp"
+						android:layout_marginStart="14dp"
+						android:layout_marginTop="75dp"
+						android:background="@drawable/line_time_shape" />
 
 					<TextView
 						android:id="@+id/ulangi"
@@ -378,14 +379,14 @@
 
 					<TextView
 						android:id="@+id/time"
-						android:layout_width="30.5dp"
+						android:layout_width="32.5dp"
 						android:layout_height="13.5dp"
 						android:layout_marginLeft="11dp"
 						android:layout_marginTop="52dp"
 						android:fontFamily="@font/montserrat_light"
-						android:textSize="9sp"
 						android:text="@string/time_string"
-						android:textColor="@color/eg__push_up__sit_up__lay_up_color" />
+						android:textColor="@color/eg__push_up__sit_up__lay_up_color"
+						android:textSize="9sp" />
 
 				</RelativeLayout>
 

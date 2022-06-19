@@ -1,0 +1,313 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		transaction_template
+	 *	@date 		1655647990568
+	 *	@title 		Converting Desain
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<RelativeLayout android:id="@+id/add_pemasukkan"
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<RelativeLayout android:id="@+id/page_add_pemasukkan_ek2"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View
+					android:id="@+id/_bg__add_pemasukkan_ek3"
+					android:layout_width="385dp"
+					android:layout_height="896dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__add_pemasukkan_ek3_shape" />
+
+				<ImageView
+					android:id="@+id/rectangle_9_ek1"
+					android:layout_width="348dp"
+					android:layout_height="227dp"
+					android:layout_marginStart="19dp"
+					android:layout_marginTop="347dp"
+					android:contentDescription="rectangle_9_ek1"
+					android:src="@drawable/rectangle_9_pemasukkan" />
+
+				<TextView
+					android:id="@+id/detail_pemasukkan"
+					android:layout_width="185dp"
+					android:layout_height="31dp"
+					android:layout_marginLeft="19dp"
+					android:layout_marginTop="315dp"
+					android:fontFamily="@font/montserrat_bold"
+					android:text="@string/detail_pemasukkan_string"
+					android:textColor="@color/_bg__transaction_template_ek2_color"
+					android:textSize="16sp"
+					android:textStyle="bold" />
+
+				<TextView android:id="@+id/text_ek1"
+					android:fontFamily="Inter"
+					android:textSize="12sp"
+					android:textColor="@color/_bg__transaction_template_ek2_color"
+					android:layout_marginLeft="274dp"
+					android:layout_marginTop="226dp"
+					android:layout_width="17dp"
+					android:layout_height="23dp"
+					android:text="@string/text_ek1_string"
+					 />
+
+				<ImageView
+					android:id="@+id/rectangle_10_ek1"
+					android:layout_width="348dp"
+					android:layout_height="116dp"
+					android:layout_marginStart="19dp"
+					android:layout_marginTop="183dp"
+					android:contentDescription="rectangle_10_ek1"
+					android:src="@drawable/rectangle_10_pemasukkan" />
+
+				<TextView
+					android:id="@+id/nominal_pemasukkan"
+					android:layout_width="204dp"
+					android:layout_height="31dp"
+					android:layout_marginLeft="103dp"
+					android:layout_marginTop="195dp"
+					android:fontFamily="@font/montserrat_semibold"
+					android:text="@string/nominal_pemasukkan_string"
+					android:textColor="@color/transaksi_color"
+					android:textSize="16sp"
+					android:textStyle="bold" />
+
+
+				<RelativeLayout android:id="@+id/group_16_ek1"
+					android:layout_marginTop="366dp"
+					android:layout_marginStart="31dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView
+						android:id="@+id/rectangle_4_ek5"
+						android:layout_width="324dp"
+						android:layout_height="52dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="30dp"
+						android:contentDescription="rectangle_4_ek5"
+						android:src="@drawable/rectangle_4_ek5" />
+
+					<EditText
+						android:id="@+id/masukkan_sumber_pemasukkan_misal_gaji_pokok__serabutan__dll_"
+						android:layout_width="269dp"
+						android:layout_height="40dp"
+						android:layout_marginLeft="12dp"
+						android:layout_marginTop="46dp"
+						android:background="@null"
+						android:fontFamily="@font/montserrat_light"
+						android:hint="@string/masukkan_sumber_pemasukkan_misal_gaji_pokok__serabutan__dll__string"
+						android:textColor="@color/_13__april_2022_color"
+						android:textSize="10sp" />
+
+					<TextView
+						android:id="@+id/sumber_pemasukkan"
+						android:layout_width="175dp"
+						android:layout_height="27dp"
+						android:layout_marginLeft="4dp"
+						android:layout_marginTop="0dp"
+						android:fontFamily="@font/montserrat_semibold"
+						android:text="@string/sumber_pemasukkan_string"
+						android:textColor="@color/transaksi_color"
+						android:textSize="14sp"
+						android:textStyle="bold" />
+
+				</RelativeLayout>
+
+				<ImageView android:id="@+id/rectangle_5_ek1"
+					android:src="@drawable/rectangle_5_ek1"
+					android:contentDescription="rectangle_5_ek1"
+					 android:layout_marginStart="32dp"
+					android:layout_marginTop="227dp"
+					android:layout_width="324dp"
+					android:layout_height="52dp" />
+
+
+				<RelativeLayout android:id="@+id/group_17_ek1"
+					android:layout_marginTop="464dp"
+					android:layout_marginStart="31dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/rectangle_4_ek6"
+						android:src="@drawable/rectangle_4_ek6"
+						android:contentDescription="rectangle_4_ek6"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="30dp"
+						android:layout_width="324dp"
+						android:layout_height="52dp" />
+
+					<TextView
+						android:id="@+id/masukkan_keterangan_barang_misal_aqua_250_ml___gojek_ayam_geprek__dll_ek1"
+						android:layout_width="305dp"
+						android:layout_height="16dp"
+						android:layout_marginLeft="12dp"
+						android:layout_marginTop="58dp"
+						android:fontFamily="@font/montserrat_light"
+						android:textSize="10sp"
+						android:text="@string/masukkan_keterangan_barang_misal_aqua_250_ml___gojek_ayam_geprek__dll_ek1_string"
+						android:textColor="@color/_13__april_2022_color" />
+
+					<TextView
+						android:id="@+id/keterangan__opsional__ek1"
+						android:layout_width="181dp"
+						android:layout_height="27dp"
+						android:layout_marginLeft="4dp"
+						android:layout_marginTop="0dp"
+						android:fontFamily="@font/montserrat_semibold"
+						android:text="@string/keterangan__opsional__ek1_string"
+						android:textColor="@color/transaksi_color"
+						android:textSize="14sp"
+						android:textStyle="bold" />
+
+					<View
+						android:id="@+id/line_8_ek4"
+						android:layout_width="300dp"
+						android:layout_height="1dp"
+						android:layout_marginStart="12dp"
+						android:layout_marginTop="74dp"
+						android:background="@drawable/line_time_shape" />
+
+				</RelativeLayout>
+
+				<View   android:id="@+id/line_10_ek1"
+					android:background="@drawable/line_time_shape"
+					 android:layout_marginStart="43dp"
+					android:layout_marginTop="439dp"
+					android:layout_width="300dp"
+					android:layout_height="1dp" />
+
+
+				<RelativeLayout android:id="@+id/next_button_ek3"
+					android:layout_marginTop="672dp"
+					android:layout_marginStart="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/next_button_ek4"
+						android:src="@drawable/next_button_ek4"
+						android:contentDescription="next_button_ek4"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="346dp"
+						android:layout_height="52dp" />
+
+					<TextView
+						android:id="@+id/save_ek1"
+						android:layout_width="77.24dp"
+						android:layout_height="31dp"
+						android:layout_gravity="center_horizontal|center"
+						android:layout_marginLeft="137dp"
+						android:layout_marginTop="8dp"
+						android:fontFamily="@font/montserrat_semibold"
+						android:gravity="center"
+						android:text="@string/save_ek1_string"
+						android:textColor="@color/_bg__transaction_template_ek2_color"
+						android:textSize="16sp"
+						android:textStyle="bold" />
+
+				</RelativeLayout>
+
+				<ImageView android:id="@+id/back_ek2"
+					android:src="@drawable/back_ek2"
+					android:contentDescription="back_ek2"
+					 android:layout_marginStart="21dp"
+					android:layout_marginTop="30dp"
+					android:layout_width="25dp"
+					android:layout_height="25dp" />
+
+				<View   android:id="@+id/line_9_ek2"
+					android:background="@drawable/line_time_shape"
+					 android:layout_marginStart="42dp"
+					android:layout_marginTop="253dp"
+					android:layout_width="301dp"
+					android:layout_height="1dp" />
+
+				<TextView
+					android:id="@+id/rp_0_ek4"
+					android:layout_width="45dp"
+					android:layout_height="23dp"
+					android:layout_marginLeft="41dp"
+					android:layout_marginTop="235dp"
+					android:fontFamily="@font/montserrat_light"
+					android:text="@string/rp_0_ek4_string"
+					android:textColor="@color/_13__april_2022_color"
+					android:textSize="12sp" />
+
+				<TextView
+					android:id="@+id/masukkan_pengeluaran_misal__1_000_000_ek1"
+					android:layout_width="200dp"
+					android:layout_height="16dp"
+					android:layout_marginLeft="41dp"
+					android:layout_marginTop="261dp"
+					android:fontFamily="@font/montserrat_light"
+					android:textSize="10sp"
+					android:text="@string/masukkan_pengeluaran_misal__1_000_000_ek1_string"
+					android:textColor="@color/_13__april_2022_color" />
+
+
+				<RelativeLayout android:id="@+id/group_36_ek1"
+					android:layout_marginTop="79dp"
+					android:layout_marginStart="34dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/ellipse_7_ek1"
+						android:background="@drawable/ellipse_7_ek1_shape"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="60dp"
+						android:layout_height="60dp" />
+
+					<ImageView android:id="@+id/logo_moment_rev2_1_ek1"
+						android:src="@drawable/logo_moment_rev2_1_ek1"
+						android:contentDescription="logo_moment_rev2_1_ek1"
+						 android:layout_marginStart="10dp"
+						android:layout_marginTop="15dp"
+						android:layout_width="40dp"
+						android:layout_height="30.08dp" />
+
+				</RelativeLayout>
+
+				<TextView
+					android:id="@+id/pemasukkan_ek1"
+					android:layout_width="131dp"
+					android:layout_height="31dp"
+					android:layout_marginLeft="102dp"
+					android:layout_marginTop="99dp"
+					android:fontFamily="@font/montserrat_bold"
+					android:text="@string/pemasukkan_ek1_string"
+					android:textColor="@color/_bg__transaction_template_ek2_color"
+					android:textSize="16sp"
+					android:textStyle="bold" />
+
+			</RelativeLayout>
+
+
+		</RelativeLayout>
+
+	</RelativeLayout>
+</HorizontalScrollView>

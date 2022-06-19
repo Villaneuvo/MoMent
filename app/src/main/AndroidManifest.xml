@@ -48,6 +48,11 @@
         <activity android:name=".login_error_session_activity" />
         <activity android:name=".add_title_template_activity" />
         <activity android:name=".set_task_activity" />
+        <activity android:name="exportkit.xd.analysis_activity"></activity>
+        <activity android:name="exportkit.xd.add_pengeluaran_activity"></activity>
+        <activity android:name="exportkit.xd.add_pemasukkan_activity"></activity>
+        <activity android:name="exportkit.xd.set_limit_template_activity"></activity>
+        <activity android:name="exportkit.xd.transaction_template_activity"></activity>
     </application>
 
 </manifest>
