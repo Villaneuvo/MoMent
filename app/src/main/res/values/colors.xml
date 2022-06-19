@@ -23,4 +23,14 @@
 	<color name="rp_12_000_color">#D11111</color>
 	<color name="rp_34_000_color">#357C3C</color>
 	<color name="notification_bg_color">#5BC7F2</color>
+	<color name="_bg__success_change_ek2_color">#FFFFFF</color>
+	<color name="login_color">#000000</color>
+	<color name="bg_template_add_something">#40000000</color>
+	<color name="clock_bg_color">#E5E5E5</color>
+	<color name="time_circle_color">#BEBEBE</color>
+	<color name="back_color">#ffffff</color>
+	<color name="app_background_color">#2C1160</color>
+	<color name="_bg__set_task_ek2_color">#FFFFFF</color>
+	<color name="kegiatan_kamis_color">#000000</color>
+	<color name="eg__push_up__sit_up__lay_up_color">#565656</color>
 </resources>

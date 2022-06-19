@@ -52,6 +52,11 @@ public class to_do_activity extends Activity {
 		Intent i = new Intent(to_do_activity.this, profile_activity.class);
 		startActivity(i);
 	}
+
+	public void addTitle(View view){
+		Intent i = new Intent(to_do_activity.this, add_title_template_activity.class);
+		startActivity(i);
+	}
 }
 	
 	

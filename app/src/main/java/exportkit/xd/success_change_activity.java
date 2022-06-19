@@ -29,13 +29,6 @@ import android.widget.TextView;
 
 public class success_change_activity extends Activity {
 
-	
-	private View __bg__success_change_ek2;
-	private View background_splash_ek1;
-	private ImageView change_success_image;
-	private TextView your_password_have_changed_successfuly__it_will_automatically_back_to_login_session;
-	private TextView moment;
-
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 

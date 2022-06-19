@@ -84,7 +84,7 @@ import com.google.firebase.database.FirebaseDatabase;
 							startActivity(i);
 						}
 						else{
-							Intent i = new Intent(login_session_activity.this, home_activity.class);
+							Intent i = new Intent(login_session_activity.this, login_error_session_activity.class);
 							startActivity(i);
 						}
 					}
@@ -94,7 +94,8 @@ import com.google.firebase.database.FirebaseDatabase;
 	}
 
 	public void signUpButton(View view){
-//		Intent i = new Intent(login_session_activity.this, sig)
+		Intent i = new Intent(login_session_activity.this, sign_up_activity.class);
+		startActivity(i);
 	}
 
 	public void forgotPassword(View view){

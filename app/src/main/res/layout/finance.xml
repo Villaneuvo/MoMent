@@ -743,16 +743,17 @@
 						android:layout_width="30dp"
 						android:layout_height="30dp" />
 
-					<TextView android:id="@+id/cari_judul_to_do_atau_finance____ek2"
-						android:fontFamily="@font/montserrat_semibold"
-						android:textSize="11sp"
+					<EditText
+						android:id="@+id/cari_judul_to_do_atau_finance____ek1"
+						android:layout_width="290dp"
+						android:layout_height="40dp"
+						android:layout_marginLeft="20dp"
+						android:layout_marginTop="6dp"
+						android:background="@null"
+						android:fontFamily="@font/montserrat_light"
+						android:hint="@string/cari_judul_to_do_atau_finance____ek1_string"
 						android:textColor="@color/password_color"
-						android:layout_marginLeft="10dp"
-						android:layout_marginTop="17dp"
-						android:layout_width="317.5dp"
-						android:layout_height="22.5dp"
-						android:text="@string/cari_judul_to_do_atau_finance____ek2_string"
-						 />
+						android:textSize="11sp" />
 
 				</RelativeLayout>
 

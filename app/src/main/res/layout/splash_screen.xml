@@ -40,7 +40,7 @@
 
 				<ImageView
 					android:id="@+id/background_splash"
-					android:layout_width="393dp"
+					android:layout_width="392.5dp"
 					android:layout_height="896dp"
 					android:layout_marginStart="0dp"
 					android:layout_marginTop="-15dp"

@@ -23,12 +23,6 @@
 			android:layout_width="wrap_content" 
 			android:layout_height="wrap_content" >
 
-
-
-
-
-
-
 			<RelativeLayout android:id="@+id/page_to_do_ek3"
 				android:layout_marginTop="0dp"
 				android:layout_marginStart="0dp"
@@ -510,21 +504,24 @@
 					android:layout_height="wrap_content"
 					>
 
-					<ImageView android:id="@+id/ellipse_6"
-						android:src="@drawable/ellipse_6"
-						android:contentDescription="ellipse_6"
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
+					<ImageView
+						android:id="@+id/ellipse_6"
 						android:layout_width="70dp"
-						android:layout_height="70dp" />
+						android:layout_height="70dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:contentDescription="ellipse_6"
+						android:onClick="addTitle"
+						android:src="@drawable/ellipse_6" />
 
-					<ImageView android:id="@+id/ellipse_7"
-						android:src="@drawable/ellipse_7"
-						android:contentDescription="ellipse_7"
-						 android:layout_marginStart="22dp"
-						android:layout_marginTop="22dp"
+					<ImageView
+						android:id="@+id/ellipse_7"
 						android:layout_width="26.25dp"
-						android:layout_height="26.25dp" />
+						android:layout_height="26.25dp"
+						android:layout_marginStart="22dp"
+						android:layout_marginTop="22dp"
+						android:contentDescription="ellipse_7"
+						android:src="@drawable/ellipse_7" />
 
 				</RelativeLayout>
 
@@ -569,7 +566,7 @@
 						android:layout_marginTop="6dp"
 						android:background="@null"
 						android:fontFamily="@font/montserrat_light"
-						android:text="@string/cari_judul_to_do_atau_finance____ek1_string"
+						android:hint="@string/cari_judul_to_do_atau_finance____ek1_string"
 						android:textColor="@color/password_color"
 						android:textSize="11sp" />
 

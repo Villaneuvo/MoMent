@@ -590,13 +590,14 @@
 					android:layout_height="wrap_content"
 					>
 
-					<ImageView android:id="@+id/rectangle_7"
-						android:src="@drawable/rectangle_7"
-						android:contentDescription="rectangle_7"
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
+					<ImageView
+						android:id="@+id/rectangle_7"
 						android:layout_width="357dp"
-						android:layout_height="48dp" />
+						android:layout_height="48dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:contentDescription="rectangle_7"
+						android:src="@drawable/rectangle_7" />
 
 					<ImageView android:id="@+id/search_1"
 						android:src="@drawable/search_1"

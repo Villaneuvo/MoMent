@@ -1,0 +1,139 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		success_change
+	 *	@date 		1655623930391
+	 *	@title 		Converting Desain
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<RelativeLayout android:id="@+id/success_change"
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_success_change_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View
+					android:id="@+id/_bg__success_change_ek2"
+					android:layout_width="392.5dp"
+					android:layout_height="896dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/signup_success_image" />
+
+				<View
+					android:id="@+id/background_splash"
+					android:layout_width="392.5dp"
+					android:layout_height="926dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="-15dp"
+					android:background="@drawable/bg_splash_screen" />
+
+				<ImageView android:id="@+id/change_success_image"
+					android:src="@drawable/signup_success_image"
+					android:contentDescription="change_success_image"
+					 android:layout_marginStart="38dp"
+					android:layout_marginTop="159dp"
+					android:layout_width="310dp"
+					android:layout_height="280dp" />
+
+
+				<RelativeLayout android:id="@+id/login_button"
+					android:layout_marginTop="576dp"
+					android:layout_marginStart="74dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView
+						android:id="@+id/log_in_button"
+						android:layout_width="237dp"
+						android:layout_height="52dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:contentDescription="log_in_button"
+						android:onClick="backLogin"
+						android:src="@drawable/log_in_button" />
+
+					<TextView
+						android:id="@+id/login"
+						android:layout_width="67dp"
+						android:layout_height="31dp"
+						android:layout_gravity="center_horizontal|center"
+						android:layout_marginLeft="89dp"
+						android:layout_marginTop="8dp"
+						android:fontFamily="@font/montserrat_semibold"
+						android:gravity="center"
+						android:text="@string/login_string"
+						android:textColor="@color/login_color"
+						android:textSize="16sp"
+						android:textStyle="bold" />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/title_field"
+					android:layout_marginTop="448dp"
+					android:layout_marginStart="18dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<TextView
+						android:id="@+id/you_ve_already_sign_up_successfuly__please_check_your_email_to_get_verify_your_email_"
+						android:layout_width="362dp"
+						android:layout_height="44dp"
+						android:layout_gravity="center_horizontal|center"
+						android:layout_marginLeft="-2dp"
+						android:layout_marginTop="64dp"
+						android:fontFamily="@font/montserrat_bold"
+						android:gravity="center"
+						android:text="@string/you_ve_already_sign_up_successfuly__please_check_your_email_to_get_verify_your_email__string"
+						android:textColor="@color/_bg__success_change_ek2_color"
+						android:textSize="14sp"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/moment"
+						android:layout_width="388dp"
+						android:layout_height="77dp"
+						android:layout_marginLeft="3dp"
+						android:layout_marginTop="0dp"
+						android:fontFamily="@font/montserrat_bold"
+						android:text="@string/moment_string"
+						android:textColor="@color/_bg__success_change_ek2_color"
+						android:textSize="40sp"
+						android:textStyle="bold" />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+
+
+
+
+
+		</RelativeLayout>
+
+	</RelativeLayout>
+</HorizontalScrollView>

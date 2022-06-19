@@ -1,0 +1,112 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		success_change
+	 *	@date 		1655623930391
+	 *	@title 		Converting Desain
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/to_do_field" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_to_do_field_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View
+					android:id="@+id/_bg__to_do_field_ek2"
+					android:layout_width="385dp"
+					android:layout_height="896dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__to_do_field_ek2_shape" />
+
+				<TextView
+					android:id="@+id/kegiatan_kamis_ek1"
+					android:layout_width="337dp"
+					android:layout_height="49dp"
+					android:layout_marginLeft="21dp"
+					android:layout_marginTop="79dp"
+					android:fontFamily="@font/montserrat_bold"
+					android:text="@string/kegiatan_kamis_ek1_string"
+					android:textColor="@color/login_color"
+					android:textSize="36sp"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/belum_ada_kegiatan"
+					android:layout_width="142dp"
+					android:layout_height="23dp"
+					android:layout_marginLeft="136dp"
+					android:layout_marginTop="433dp"
+					android:fontFamily="@font/montserrat_light"
+					android:text="@string/belum_ada_kegiatan_string"
+					android:textColor="@color/login_color"
+					android:textSize="12sp" />
+
+				<ImageView
+					android:id="@+id/back_ek1"
+					android:layout_width="25dp"
+					android:layout_height="25dp"
+					android:layout_marginStart="21dp"
+					android:layout_marginTop="30dp"
+					android:contentDescription="back_ek1"
+					android:onClick="backToDo"
+					android:src="@drawable/back_ek1" />
+
+
+				<RelativeLayout android:id="@+id/add_task"
+					android:layout_marginTop="714dp"
+					android:layout_marginStart="283dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView
+						android:id="@+id/ellipse_6"
+						android:layout_width="70dp"
+						android:layout_height="70dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:contentDescription="ellipse_6"
+						android:onClick="addTask"
+						android:src="@drawable/ellipse_6" />
+
+					<ImageView android:id="@+id/ellipse_7"
+						android:src="@drawable/ellipse_7"
+						android:contentDescription="ellipse_7"
+						 android:layout_marginStart="22dp"
+						android:layout_marginTop="22dp"
+						android:layout_width="26.25dp"
+						android:layout_height="26.25dp" />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
