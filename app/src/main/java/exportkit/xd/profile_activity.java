@@ -50,6 +50,11 @@ public class profile_activity extends Activity {
 		Intent i = new Intent(profile_activity.this, finance_activity.class);
 		startActivity(i);
 	}
+
+	public void postLogOut(View view){
+		Intent i = new Intent(profile_activity.this, login_session_activity.class);
+		startActivity(i);
+	}
 }
 	
 	

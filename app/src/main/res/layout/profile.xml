@@ -94,12 +94,12 @@
 						</RelativeLayout>
 
 
-						<RelativeLayout android:id="@+id/to_do_ek9"
-							android:layout_marginTop="0dp"
-							android:layout_marginStart="89dp"
+						<RelativeLayout
+							android:id="@+id/to_do_ek9"
 							android:layout_width="wrap_content"
 							android:layout_height="wrap_content"
-							>
+							android:layout_marginStart="89dp"
+							android:layout_marginTop="0dp">
 
 							<TextView
 								android:id="@+id/to_do_ek10"
@@ -624,6 +624,7 @@
 							android:layout_marginStart="302dp"
 							android:layout_marginTop="12dp"
 							android:contentDescription="next_icon"
+							android:onClick="postLogOut"
 							android:src="@drawable/next_lr" />
 
 						<TextView
