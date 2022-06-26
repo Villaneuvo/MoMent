@@ -102,7 +102,7 @@
 						android:layout_marginTop="29dp"
 						android:contentDescription="sign_up_button_ek1"
 						android:onClick="signUpButton"
-						android:src="@drawable/sign_up_button_ek1" />
+						android:src="@drawable/sign_up_button_shape" />
 
 					<TextView
 						android:id="@+id/sign_up"
@@ -110,7 +110,7 @@
 						android:layout_height="31dp"
 						android:layout_gravity="center_horizontal|center"
 						android:layout_marginLeft="83dp"
-						android:layout_marginTop="36dp"
+						android:layout_marginTop="40dp"
 						android:fontFamily="@font/montserrat_semibold"
 						android:gravity="center"
 						android:text="@string/sign_up_string"
@@ -197,7 +197,7 @@
 						android:layout_marginTop="265dp"
 						android:contentDescription="log_in_button"
 						android:onClick="postLogin"
-						android:src="@drawable/log_in_button" />
+						android:src="@drawable/login_button" />
 
 					<TextView
 						android:id="@+id/log_in"
@@ -205,7 +205,7 @@
 						android:layout_height="31dp"
 						android:layout_gravity="center_horizontal|center"
 						android:layout_marginLeft="122dp"
-						android:layout_marginTop="272dp"
+						android:layout_marginTop="276dp"
 						android:fontFamily="@font/montserrat_semibold"
 						android:gravity="center"
 						android:text="@string/log_in_string"

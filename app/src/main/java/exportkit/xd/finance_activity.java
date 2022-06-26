@@ -38,19 +38,29 @@ public class finance_activity extends Activity {
 	
 	}
 
+	@Override
+	public void onBackPressed() {
+		Intent i = new Intent(finance_activity.this, home_activity.class);
+		startActivity(i);
+		overridePendingTransition(0,0);
+	}
+
 	public void home(View view){
 		Intent i = new Intent(finance_activity.this, home_activity.class);
 		startActivity(i);
+		overridePendingTransition(0,0);
 	}
 
 	public void toDo(View view){
 		Intent i = new Intent(finance_activity.this, to_do_activity.class);
 		startActivity(i);
+		overridePendingTransition(0,0);
 	}
 
 	public void profile(View view){
 		Intent i = new Intent(finance_activity.this, profile_activity.class);
 		startActivity(i);
+		overridePendingTransition(0,0);
 	}
 
 	public void postTransaction(View view){

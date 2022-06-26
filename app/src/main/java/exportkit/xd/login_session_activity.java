@@ -18,6 +18,7 @@
 package exportkit.xd;
 
 import android.app.Activity;
+import android.app.ActivityOptions;
 import android.media.Image;
 import android.os.Bundle;
 
@@ -56,41 +57,47 @@ import com.google.firebase.database.FirebaseDatabase;
 		user = new User();
 		reff = FirebaseDatabase.getInstance().getReference("User");
 
-		logIn.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				String email = InEmail.getText().toString();
-				String password = InPassword.getText().toString();
+	}
 
-				if (TextUtils.isEmpty(InEmail.getText().toString().trim())
-						&& TextUtils.isEmpty(InPassword.getText().toString().trim())){
-					Toast.makeText(view.getContext(), "Email & Password Cannot Be Empty", Toast.LENGTH_SHORT).show();
+		@Override
+		public void onBackPressed() {
+			Intent i = new Intent(Intent.ACTION_MAIN);
+			i.addCategory(Intent.CATEGORY_HOME);
+			i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+			startActivity(i);
+		}
+
+		public void postLogin(View view){
+		String email = InEmail.getText().toString();
+		String password = InPassword.getText().toString();
+
+		if (TextUtils.isEmpty(InEmail.getText().toString().trim())
+				&& TextUtils.isEmpty(InPassword.getText().toString().trim())){
+			Toast.makeText(view.getContext(), "Email & Password Cannot Be Empty", Toast.LENGTH_SHORT).show();
+		}
+		else{
+			if (TextUtils.isEmpty(InEmail.getText().toString().trim())){
+				Toast.makeText(view.getContext(), "Email Tidak Boleh Kosong", Toast.LENGTH_SHORT).show();
+			}
+			else if (TextUtils.isEmpty(InPassword.getText().toString().trim())){
+				Toast.makeText(view.getContext(), "Password Tidak Boleh Kosong", Toast.LENGTH_SHORT).show();
+			}
+			else if (!isValidEmail(InEmail.getText().toString().trim())){
+				Toast.makeText(view.getContext(), "Invalid Email Input", Toast.LENGTH_SHORT).show();
+			}
+			else{
+				Boolean checkEmailPass =BantuDb.checkEmailPassword(email, password);
+				if (checkEmailPass){
+					Toast.makeText(view.getContext(), "Login successfull", Toast.LENGTH_SHORT).show();
+					Intent i = new Intent(login_session_activity.this, home_activity.class);
+					startActivity(i);
 				}
 				else{
-					if (TextUtils.isEmpty(InEmail.getText().toString().trim())){
-						Toast.makeText(view.getContext(), "Email Tidak Boleh Kosong", Toast.LENGTH_SHORT).show();
-					}
-					else if (TextUtils.isEmpty(InPassword.getText().toString().trim())){
-						Toast.makeText(view.getContext(), "Password Tidak Boleh Kosong", Toast.LENGTH_SHORT).show();
-					}
-					else if (!isValidEmail(InEmail.getText().toString().trim())){
-						Toast.makeText(view.getContext(), "Invalid Email Input", Toast.LENGTH_SHORT).show();
-					}
-					else{
-						Boolean checkEmailPass =BantuDb.checkEmailPassword(email, password);
-						if (checkEmailPass){
-							Toast.makeText(view.getContext(), "Login successfull", Toast.LENGTH_SHORT).show();
-							Intent i = new Intent(login_session_activity.this, home_activity.class);
-							startActivity(i);
-						}
-						else{
-							Intent i = new Intent(login_session_activity.this, login_error_session_activity.class);
-							startActivity(i);
-						}
-					}
+					Intent i = new Intent(login_session_activity.this, login_error_session_activity.class);
+					startActivity(i, ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
 				}
 			}
-		});
+		}
 	}
 
 	public void signUpButton(View view){

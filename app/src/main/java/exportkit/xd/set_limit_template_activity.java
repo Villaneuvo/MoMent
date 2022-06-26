@@ -18,7 +18,6 @@
 package exportkit.xd;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -34,11 +33,6 @@ public class set_limit_template_activity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.set_limit_template);
 
-	}
-
-	public void saveLimit(View view){
-		Intent i = new Intent(set_limit_template_activity.this, finance_activity.class);
-		startActivity(i);
 	}
 }
 	

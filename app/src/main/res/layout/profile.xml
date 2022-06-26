@@ -1,5 +1,8 @@
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
-	android:layout_width="match_parent" android:layout_height="wrap_content" >
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
 	<!-- 
 	/*
 	 *	This content is generated from the API File Info.
@@ -94,12 +97,12 @@
 						</RelativeLayout>
 
 
-						<RelativeLayout
-							android:id="@+id/to_do_ek9"
+						<RelativeLayout android:id="@+id/to_do_ek9"
+							android:layout_marginTop="0dp"
+							android:layout_marginStart="89dp"
 							android:layout_width="wrap_content"
 							android:layout_height="wrap_content"
-							android:layout_marginStart="89dp"
-							android:layout_marginTop="0dp">
+							>
 
 							<TextView
 								android:id="@+id/to_do_ek10"
@@ -340,14 +343,22 @@
 							android:contentDescription="notification_icon"
 							android:src="@drawable/notif_lr" />
 
-						<ImageView
-							android:id="@+id/switch_icon"
+<!--						<ImageView-->
+<!--							android:id="@+id/switch_icon"-->
+<!--							android:layout_width="30dp"-->
+<!--							android:layout_height="30dp"-->
+<!--							android:layout_marginStart="302dp"-->
+<!--							android:layout_marginTop="12dp"-->
+<!--							android:contentDescription="switch_icon"-->
+<!--							android:src="@drawable/switch_icon_lr" />-->
+
+						<com.airbnb.lottie.LottieAnimationView
+							android:id="@+id/switch_notif_icon"
 							android:layout_width="30dp"
 							android:layout_height="30dp"
-							android:layout_marginStart="302dp"
-							android:layout_marginTop="12dp"
-							android:contentDescription="switch_icon"
-							android:src="@drawable/switch_icon_lr" />
+							android:layout_marginStart="300dp"
+							android:layout_marginTop="13dp"
+							app:lottie_rawRes="@raw/switch_button" />
 
 						<TextView
 							android:id="@+id/notification_ek1"
@@ -397,14 +408,13 @@
 							android:contentDescription="sounds_icon"
 							android:src="@drawable/sound_lr" />
 
-						<ImageView
-							android:id="@+id/switch_icon_ek1"
+						<com.airbnb.lottie.LottieAnimationView
+							android:id="@+id/switch_sounds_icon"
 							android:layout_width="30dp"
 							android:layout_height="30dp"
-							android:layout_marginStart="302dp"
-							android:layout_marginTop="12dp"
-							android:contentDescription="switch_icon_ek1"
-							android:src="@drawable/switch_icon_lr" />
+							android:layout_marginStart="300dp"
+							android:layout_marginTop="13dp"
+							app:lottie_rawRes="@raw/switch_button" />
 
 						<TextView
 							android:id="@+id/sounds_ek1"
@@ -624,7 +634,6 @@
 							android:layout_marginStart="302dp"
 							android:layout_marginTop="12dp"
 							android:contentDescription="next_icon"
-							android:onClick="postLogOut"
 							android:src="@drawable/next_lr" />
 
 						<TextView

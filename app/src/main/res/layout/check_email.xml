@@ -96,7 +96,7 @@
 
 
 				<RelativeLayout android:id="@+id/submit_button"
-					android:layout_marginTop="700dp"
+					android:layout_marginTop="690dp"
 					android:layout_marginStart="20dp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
@@ -106,19 +106,19 @@
 						android:id="@+id/log_in_button_ek3"
 						android:layout_width="346dp"
 						android:layout_height="48.63dp"
-						android:layout_marginStart="0dp"
+						android:layout_marginStart="5dp"
 						android:layout_marginTop="0dp"
 						android:contentDescription="log_in_button_ek3"
 						android:onClick="createPassword"
-						android:src="@drawable/log_in_button_ek3" />
+						android:src="@drawable/login_button" />
 
 					<TextView
 						android:id="@+id/submit_ek1"
 						android:layout_width="108.23dp"
 						android:layout_height="31dp"
 						android:layout_gravity="center_horizontal|center"
-						android:layout_marginLeft="117dp"
-						android:layout_marginTop="5dp"
+						android:layout_marginLeft="120dp"
+						android:layout_marginTop="8dp"
 						android:fontFamily="@font/montserrat_semibold"
 						android:gravity="center"
 						android:text="@string/submit_ek1_string"

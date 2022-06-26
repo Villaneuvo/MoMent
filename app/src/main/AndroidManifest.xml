@@ -53,6 +53,7 @@
         <activity android:name="exportkit.xd.add_pemasukkan_activity"></activity>
         <activity android:name="exportkit.xd.set_limit_template_activity"></activity>
         <activity android:name="exportkit.xd.transaction_template_activity"></activity>
+        <activity android:name="exportkit.xd.signup_success_activity"></activity>
     </application>
 
 </manifest>

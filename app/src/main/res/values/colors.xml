@@ -39,4 +39,15 @@
 	<color name="_13__april_2022_color">#565656</color>
 	<color name="rectangle_9080_color">#47248A</color>
 	<color name="ellipse_7_color">#39206A</color>
+	<color name="login_button_colour_primary">#FF8B00</color>
+	<color name="login_button_colour_secondary">#C36A00</color>
+	<color name="login_button_stroke">#66FFB800</color>
+	<color name="signup_button_colour_primary">#994AB4</color>
+	<color name="signup_button_colour_secondary">#713786</color>
+	<color name="signup_button_stroke">#4D2C1160</color>
+	<color name="login_error_button_primary">#D11111</color>
+	<color name="login_error_button_secondary">#A71313</color>
+	<color name="login_error_button_stroke">#40FF4444</color>
+
+
 </resources>

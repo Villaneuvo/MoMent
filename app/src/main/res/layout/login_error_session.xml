@@ -309,12 +309,12 @@
 					<ImageView
 						android:id="@+id/log_in_background_ek8"
 						android:layout_width="166dp"
-						android:layout_height="32dp"
+						android:layout_height="40dp"
 						android:layout_marginStart="110dp"
-						android:layout_marginTop="512dp"
+						android:layout_marginTop="504dp"
 						android:contentDescription="log_in_background_ek8"
 						android:onClick="retry"
-						android:src="@drawable/log_in_background_ek8" />
+						android:src="@drawable/login_error_shape" />
 
 					<TextView android:id="@+id/login_failed"
 						android:fontFamily="@font/montserrat_bold"
@@ -354,8 +354,8 @@
 						android:layout_width="52dp"
 						android:layout_height="27dp"
 						android:layout_gravity="center_horizontal|center"
-						android:layout_marginLeft="169dp"
-						android:layout_marginTop="511dp"
+						android:layout_marginLeft="168dp"
+						android:layout_marginTop="510dp"
 						android:fontFamily="@font/montserrat_semibold"
 						android:gravity="center"
 						android:text="@string/retry_string"

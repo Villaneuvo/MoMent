@@ -36,6 +36,12 @@ public class login_error_session_activity extends Activity {
 		
 	}
 
+	@Override
+	public void onBackPressed() {
+		Intent i = new Intent(login_error_session_activity.this, login_session_activity.class);
+		startActivity(i);
+	}
+
 	public void retry(View view){
 		Intent i = new Intent(login_error_session_activity.this, login_session_activity.class);
 		startActivity(i);

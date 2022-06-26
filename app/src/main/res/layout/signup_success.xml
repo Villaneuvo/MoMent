@@ -48,13 +48,14 @@
 					android:layout_marginTop="-15dp"
 					android:background="@drawable/bg_splash_screen" />
 
-				<ImageView android:id="@+id/change_success_image"
-					android:src="@drawable/signup_success_image"
-					android:contentDescription="change_success_image"
-					 android:layout_marginStart="38dp"
-					android:layout_marginTop="159dp"
+				<ImageView
+					android:id="@+id/change_success_image"
 					android:layout_width="310dp"
-					android:layout_height="280dp" />
+					android:layout_height="280dp"
+					android:layout_marginStart="38dp"
+					android:layout_marginTop="159dp"
+					android:contentDescription="change_success_image"
+					android:src="@drawable/signup_success_image" />
 
 
 				<RelativeLayout android:id="@+id/login_button"
@@ -72,15 +73,15 @@
 						android:layout_marginTop="0dp"
 						android:contentDescription="log_in_button"
 						android:onClick="backLogin"
-						android:src="@drawable/log_in_button" />
+						android:src="@drawable/login_button" />
 
 					<TextView
 						android:id="@+id/login"
 						android:layout_width="67dp"
 						android:layout_height="31dp"
 						android:layout_gravity="center_horizontal|center"
-						android:layout_marginLeft="89dp"
-						android:layout_marginTop="8dp"
+						android:layout_marginLeft="88dp"
+						android:layout_marginTop="11dp"
 						android:fontFamily="@font/montserrat_semibold"
 						android:gravity="center"
 						android:text="@string/login_string"

@@ -38,19 +38,29 @@ public class to_do_activity extends Activity {
 
 	}
 
+	@Override
+	public void onBackPressed() {
+		Intent i = new Intent(to_do_activity.this, home_activity.class);
+		startActivity(i);
+		overridePendingTransition(0,0);
+	}
+
 	public void home(View view){
 		Intent i = new Intent(to_do_activity.this, home_activity.class);
 		startActivity(i);
+		overridePendingTransition(0,0);
 	}
 
 	public void finance(View view){
 		Intent i = new Intent(to_do_activity.this, finance_activity.class);
 		startActivity(i);
+		overridePendingTransition(0,0);
 	}
 
 	public void profile(View view){
 		Intent i = new Intent(to_do_activity.this, profile_activity.class);
 		startActivity(i);
+		overridePendingTransition(0,0);
 	}
 
 	public void addTitle(View view){

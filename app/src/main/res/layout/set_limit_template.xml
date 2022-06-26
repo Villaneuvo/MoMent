@@ -646,15 +646,13 @@
 							android:layout_marginTop="0dp"
 							android:background="@drawable/add_title_shape" />
 
-						<ImageView
-							android:id="@+id/next_button_ek5"
-							android:layout_width="237dp"
-							android:layout_height="52dp"
+						<ImageView android:id="@+id/next_button_ek5"
+							android:src="@drawable/next_button_ek5"
+							android:contentDescription="next_button_ek5"
 							android:layout_marginStart="74dp"
 							android:layout_marginTop="175dp"
-							android:contentDescription="next_button_ek5"
-							android:onClick="saveLimit"
-							android:src="@drawable/next_button_ek5" />
+							android:layout_width="237dp"
+							android:layout_height="52dp" />
 
 						<TextView
 							android:id="@+id/next_ek1"
