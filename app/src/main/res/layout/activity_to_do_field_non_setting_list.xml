@@ -60,12 +60,14 @@
                     android:onClick="backToDo"
                     android:src="@drawable/back_ek2" />
 
+                <!-- Add Title -->
 
-                <RelativeLayout android:id="@+id/add_task_ek1"
-                    android:layout_marginTop="614dp"
+                <RelativeLayout android:id="@+id/btnAddTask"
+                    android:layout_marginTop="164dp"
                     android:layout_marginStart="283dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@id/recycler_view_to_do"
                     >
 
                     <ImageView
@@ -74,8 +76,8 @@
                         android:layout_height="70dp"
                         android:layout_marginStart="0dp"
                         android:layout_marginTop="0dp"
-                        android:onClick="addTask"
                         android:contentDescription="ellipse_6_ek1"
+                        android:onClick="addTask"
                         android:src="@drawable/ellipse_6_ek1" />
 
                     <ImageView
@@ -197,216 +199,17 @@
                     android:textColor="@color/login_color"
                     android:textSize="11sp" />
 
-                <ImageView
-                    android:id="@+id/rectangle_2"
-                    android:layout_width="318dp"
-                    android:layout_height="52dp"
-                    android:layout_marginStart="33dp"
-                    android:layout_marginTop="225dp"
-                    android:contentDescription="rectangle_2"
-                    android:src="@drawable/unfinished_bg" />
-
-                <View   android:id="@+id/ellipse_5"
-                    android:background="@drawable/ellipse_5_shape"
-                    android:layout_marginStart="49dp"
-                    android:layout_marginTop="243dp"
-                    android:layout_width="17dp"
-                    android:layout_height="17dp" />
-
-                <TextView
-                    android:id="@+id/selesai_hari_ini"
-                    android:layout_width="105.5dp"
-                    android:layout_height="24.5dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginTop="291dp"
-                    android:fontFamily="@font/montserrat_light"
-                    android:text="@string/selesai_hari_ini_string"
-                    android:textColor="@color/login_color"
-                    android:textSize="13sp" />
-
-                <ImageView android:id="@+id/polygon_2_ek1"
-                    android:src="@drawable/polygon_2_ek1"
-                    android:contentDescription="polygon_2_ek1"
-                    android:layout_marginStart="110dp"
-                    android:layout_marginTop="294dp"
-                    android:layout_width="8dp"
-                    android:layout_height="5dp" />
-
-                <ImageView
-                    android:id="@+id/dots_1"
-                    android:layout_width="20dp"
-                    android:layout_height="22dp"
-                    android:layout_marginStart="326dp"
-                    android:layout_marginTop="240dp"
-                    android:contentDescription="dots_1"
-                    android:onClick="openSetting"
-                    android:src="@drawable/dots_1" />
-
-                <TextView android:id="@+id/holiday"
-                    android:fontFamily="@font/montserrat_light"
-                    android:textSize="16sp"
-                    android:textColor="@color/password_color"
-                    android:layout_marginLeft="80dp"
-                    android:layout_marginTop="236dp"
-                    android:layout_width="75dp"
-                    android:layout_height="29dp"
-                    android:text="@string/holiday_string"
-                    />
-
-                <TextView
-                    android:id="@+id/_04_12"
-                    android:layout_width="34dp"
-                    android:layout_height="15dp"
-                    android:layout_marginLeft="80dp"
-                    android:layout_marginTop="258dp"
-                    android:fontFamily="@font/montserrat_light"
-                    android:text="@string/_04_12_string"
-                    android:textColor="@color/password_color"
-                    android:textSize="8sp" />
-
-                <ImageView
-                    android:id="@+id/rectangle_10"
-                    android:layout_width="318dp"
-                    android:layout_height="52dp"
-                    android:layout_marginStart="33dp"
-                    android:layout_marginTop="321dp"
-                    android:contentDescription="rectangle_10"
-                    android:src="@drawable/rectangle_10" />
-
-                <ImageView android:id="@+id/dots_3"
-                    android:src="@drawable/dots_3"
-                    android:contentDescription="dots_3"
-                    android:layout_marginStart="326dp"
-                    android:layout_marginTop="336dp"
-                    android:layout_width="20dp"
-                    android:layout_height="22dp" />
-
-                <TextView
-                    android:id="@+id/meet_someone"
-                    android:layout_width="144dp"
-                    android:layout_height="31dp"
-                    android:layout_marginLeft="80dp"
-                    android:layout_marginTop="332dp"
-                    android:fontFamily="@font/montserrat_light"
-                    android:text="@string/meet_someone_string"
-                    android:textColor="@color/password_color"
-                    android:textSize="16sp" />
-
-                <TextView
-                    android:id="@+id/_04_12_ek1"
-                    android:layout_width="34dp"
-                    android:layout_height="15dp"
-                    android:layout_marginLeft="80dp"
-                    android:layout_marginTop="354dp"
-                    android:fontFamily="@font/montserrat_light"
-                    android:text="@string/_04_12_ek1_string"
-                    android:textColor="@color/password_color"
-                    android:textSize="8sp"/>
-
-                <ImageView android:id="@+id/checklist_2"
-                    android:src="@drawable/checklist_2"
-                    android:contentDescription="checklist_2"
-                    android:layout_marginStart="46dp"
-                    android:layout_marginTop="336dp"
-                    android:layout_width="22dp"
-                    android:layout_height="22dp" />
-
-                <ImageView
-                    android:id="@+id/rectangle_11"
-                    android:layout_width="318dp"
-                    android:layout_height="52dp"
-                    android:layout_marginStart="33dp"
-                    android:layout_marginTop="389dp"
-                    android:contentDescription="rectangle_11"
-                    android:src="@drawable/rectangle_10" />
-
-                <ImageView android:id="@+id/dots_4"
-                    android:src="@drawable/dots_4"
-                    android:contentDescription="dots_4"
-                    android:layout_marginStart="326dp"
-                    android:layout_marginTop="404dp"
-                    android:layout_width="20dp"
-                    android:layout_height="22dp" />
-
-                <TextView
-                    android:id="@+id/beli_siomay"
-                    android:layout_width="115dp"
-                    android:layout_height="31dp"
-                    android:layout_marginLeft="80dp"
-                    android:layout_marginTop="400dp"
-                    android:fontFamily="@font/montserrat_light"
-                    android:text="@string/beli_siomay_string"
-                    android:textColor="@color/password_color"
-                    android:textSize="16sp" />
-
-                <TextView
-                    android:id="@+id/_04_13"
-                    android:layout_width="34dp"
-                    android:layout_height="16dp"
-                    android:layout_marginLeft="80dp"
-                    android:layout_marginTop="422dp"
-                    android:fontFamily="@font/montserrat_light"
-                    android:text="@string/_04_13_string"
-                    android:textColor="@color/password_color"
-                    android:textSize="8sp"/>
-
-                <ImageView android:id="@+id/checklist_3"
-                    android:src="@drawable/checklist_3"
-                    android:contentDescription="checklist_3"
-                    android:layout_marginStart="46dp"
-                    android:layout_marginTop="404dp"
-                    android:layout_width="22dp"
-                    android:layout_height="22dp" />
-
-                <ImageView
-                    android:id="@+id/rectangle_12"
-                    android:layout_width="318dp"
-                    android:layout_height="52dp"
-                    android:layout_marginStart="33dp"
-                    android:layout_marginTop="457dp"
-                    android:contentDescription="rectangle_12"
-                    android:src="@drawable/rectangle_10" />
-
-                <ImageView android:id="@+id/dots_5"
-                    android:src="@drawable/dots_5"
-                    android:contentDescription="dots_5"
-                    android:layout_marginStart="326dp"
-                    android:layout_marginTop="472dp"
-                    android:layout_width="20dp"
-                    android:layout_height="22dp" />
-
-                <TextView
-                    android:id="@+id/bersihin_gedung_dpr"
-                    android:layout_width="198dp"
-                    android:layout_height="31dp"
-                    android:layout_marginLeft="80dp"
-                    android:layout_marginTop="468dp"
-                    android:fontFamily="@font/montserrat_light"
-                    android:text="@string/bersihin_gedung_dpr_string"
-                    android:textColor="@color/password_color"
-                    android:textSize="16sp" />
-
-                <TextView
-                    android:id="@+id/_04_15"
-                    android:layout_width="35dp"
-                    android:layout_height="16dp"
-                    android:layout_marginLeft="80dp"
-                    android:layout_marginTop="490dp"
-                    android:fontFamily="@font/montserrat_light"
-                    android:text="@string/_04_15_string"
-                    android:textColor="@color/password_color"
-                    android:textSize="8sp"/>
-
-                <ImageView android:id="@+id/checklist_4"
-                    android:src="@drawable/checklist_4"
-                    android:contentDescription="checklist_4"
-                    android:layout_marginStart="46dp"
-                    android:layout_marginTop="472dp"
-                    android:layout_width="22dp"
-                    android:layout_height="22dp" />
+                <!-- Recycler View Goes Here -->
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_view_to_do"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/besok"
+                    android:nestedScrollingEnabled="true"
+                    tools:itemCount="3"
+                    tools:listitem="@layout/iten_task_to_do_list" />
 
             </RelativeLayout>
-
 
         </RelativeLayout>
 

@@ -40,9 +40,9 @@
 
 				<ImageView
 					android:id="@+id/top_background"
-					android:layout_width="411dp"
+					android:layout_width="392.8dp"
 					android:layout_height="700dp"
-					android:layout_marginStart="-18dp"
+					android:layout_marginStart="0dp"
 					android:layout_marginTop="-140dp"
 					android:contentDescription="top_background"
 					android:src="@drawable/top_background" />
@@ -242,7 +242,7 @@
 						android:layout_width="192dp"
 						android:layout_height="27dp"
 						android:layout_gravity="center_horizontal|center"
-						android:layout_marginLeft="29dp"
+						android:layout_marginLeft="26dp"
 						android:layout_marginTop="58dp"
 						android:fontFamily="@font/montserrat_light"
 						android:gravity="center"
@@ -277,7 +277,7 @@
 					android:id="@+id/simple_money_management_and_to_do_list__ek1"
 					android:layout_width="320dp"
 					android:layout_height="27dp"
-					android:layout_marginLeft="38dp"
+					android:layout_marginLeft="41dp"
 					android:layout_marginTop="295dp"
 					android:fontFamily="@font/montserrat_semibold"
 					android:text="@string/jargon"

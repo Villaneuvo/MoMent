@@ -42,6 +42,7 @@ public class transaction_template_activity extends Activity {
 	}
 
 	public void postPemasukkan(View view){
+		FinanceActivity.isFillPemasukkan = true;
 		Intent i = new Intent(transaction_template_activity.this, add_pemasukkan_activity.class);
 		startActivity(i);
 	}

@@ -69,8 +69,7 @@
 						android:layout_marginStart="27dp"
 						android:layout_marginTop="22dp"
 						android:layout_width="62dp"
-						android:layout_height="62dp"
-						android:onClick="postTransaction"/>
+						android:layout_height="62dp" />
 
 					<View   android:id="@+id/ellipse_11"
 						android:background="@drawable/ellipse_11_shape"
@@ -646,13 +645,15 @@
 							android:layout_marginTop="0dp"
 							android:background="@drawable/add_title_shape" />
 
-						<ImageView android:id="@+id/next_button_ek5"
-							android:src="@drawable/next_button_ek5"
-							android:contentDescription="next_button_ek5"
+						<ImageView
+							android:id="@+id/next_button_ek5"
+							android:layout_width="237dp"
+							android:layout_height="52dp"
 							android:layout_marginStart="74dp"
 							android:layout_marginTop="175dp"
-							android:layout_width="237dp"
-							android:layout_height="52dp" />
+							android:onClick="postSave"
+							android:contentDescription="next_button_ek5"
+							android:src="@drawable/login_button" />
 
 						<TextView
 							android:id="@+id/next_ek1"
@@ -660,7 +661,7 @@
 							android:layout_height="31dp"
 							android:layout_gravity="center_horizontal|center"
 							android:layout_marginLeft="165dp"
-							android:layout_marginTop="182dp"
+							android:layout_marginTop="186dp"
 							android:fontFamily="@font/montserrat_semibold"
 							android:gravity="center"
 							android:text="@string/next_ek1_string"
@@ -689,11 +690,12 @@
 
 						<EditText
 							android:id="@+id/text_limit_pengeluaran"
-							android:layout_width="309dp"
+							android:layout_width="339dp"
 							android:layout_height="46dp"
 							android:layout_marginLeft="23dp"
 							android:layout_marginTop="94dp"
 							android:background="@null"
+							android:inputType="numberDecimal"
 							android:fontFamily="@font/montserrat_light"
 							android:textColor="@color/transaksi_color"
 							android:textSize="16sp"

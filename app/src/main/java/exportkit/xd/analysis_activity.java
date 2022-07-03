@@ -18,6 +18,7 @@
 package exportkit.xd;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -31,6 +32,24 @@ public class analysis_activity extends Activity {
 
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.analysis);
+	}
+
+	public void home(View view){
+		Intent i = new Intent(analysis_activity.this, HomeActivity.class);
+		startActivity(i);
+		overridePendingTransition(0,0);
+	}
+
+	public void toDo(View view){
+		Intent i = new Intent(analysis_activity.this, ToDoActivity.class);
+		startActivity(i);
+		overridePendingTransition(0,0);
+	}
+
+	public void profile(View view){
+		Intent i = new Intent(analysis_activity.this, profile_activity.class);
+		startActivity(i);
+		overridePendingTransition(0,0);
 	}
 }
 	

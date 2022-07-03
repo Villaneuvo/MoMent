@@ -22,8 +22,8 @@
 		android:layout_width="wrap_content" 
 		android:layout_height="match_parent" >
 
-		<RelativeLayout android:id="@+id/content_container" 
-			android:layout_width="wrap_content" 
+		<RelativeLayout android:id="@+id/content_container"
+			android:layout_width="wrap_content"
 			android:layout_height="wrap_content" >
 
 			<RelativeLayout android:id="@+id/page_profile_ek7"
@@ -205,9 +205,9 @@
 
 				<ImageView
 					android:id="@+id/top_background_ek4"
-					android:layout_width="412.5dp"
+					android:layout_width="392.8dp"
 					android:layout_height="700dp"
-					android:layout_marginStart="-20dp"
+					android:layout_marginStart="0dp"
 					android:layout_marginTop="-200dp"
 					android:contentDescription="top_background_ek4"
 					android:src="@drawable/top_background_ek4" />
@@ -470,6 +470,7 @@
 							android:layout_marginStart="302dp"
 							android:layout_marginTop="12dp"
 							android:contentDescription="next"
+							android:onClick="postHelp"
 							android:src="@drawable/next_lr" />
 
 						<TextView
@@ -518,13 +519,15 @@
 							android:contentDescription="change_password_icon_ek1"
 							android:src="@drawable/cp_lr" />
 
-						<ImageView android:id="@+id/next_ek1"
-							android:src="@drawable/next_lr"
-							android:contentDescription="next_ek1"
-							 android:layout_marginStart="302dp"
-							android:layout_marginTop="12dp"
+						<ImageView
+							android:id="@+id/next_ek1"
 							android:layout_width="30dp"
-							android:layout_height="30dp" />
+							android:layout_height="30dp"
+							android:layout_marginStart="302dp"
+							android:layout_marginTop="12dp"
+							android:contentDescription="next_ek1"
+							android:onClick="postChangePassword"
+							android:src="@drawable/next_lr" />
 
 						<TextView
 							android:id="@+id/change_password_ek1"
@@ -579,6 +582,7 @@
 							android:layout_marginStart="302dp"
 							android:layout_marginTop="12dp"
 							android:contentDescription="next_ek2"
+							android:onClick="postAbout"
 							android:src="@drawable/next_lr" />
 
 						<TextView
@@ -634,6 +638,7 @@
 							android:layout_marginStart="302dp"
 							android:layout_marginTop="12dp"
 							android:contentDescription="next_icon"
+							android:onClick="postLogout"
 							android:src="@drawable/next_lr" />
 
 						<TextView

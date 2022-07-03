@@ -23,10 +23,8 @@ import android.os.Bundle;
 
 
 import android.view.View;
-import android.widget.ImageView;
-import android.widget.TextView;
 
-public class set_priority_template_activity extends Activity {
+    public class set_priority_template_activity extends Activity {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -36,7 +34,7 @@ public class set_priority_template_activity extends Activity {
 	
 	}
 	public void simpanPriority(View view){
-		Intent i = new Intent(set_priority_template_activity.this, to_do_field_non_setting_list.class);
+		Intent i = new Intent(set_priority_template_activity.this, TaskMain.class);
 		startActivity(i);
 	}
 

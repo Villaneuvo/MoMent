@@ -18,14 +18,12 @@
 package exportkit.xd;
 
 import android.app.Activity;
+import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
 
 
-import android.os.Debug;
 import android.view.View;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.airbnb.lottie.LottieAnimationView;
 
@@ -69,27 +67,47 @@ public class profile_activity extends Activity {
 
 	@Override
 	public void onBackPressed() {
-		Intent i = new Intent(profile_activity.this, home_activity.class);
+		Intent i = new Intent(profile_activity.this, HomeActivity.class);
 		startActivity(i);
 		overridePendingTransition(0,0);
 	}
 
 	public void home(View view){
-		Intent i = new Intent(profile_activity.this, home_activity.class);
+		Intent i = new Intent(profile_activity.this, HomeActivity.class);
 		startActivity(i);
 		overridePendingTransition(0,0);
 	}
 
 	public void toDo(View view){
-		Intent i = new Intent(profile_activity.this, to_do_activity.class);
+		Intent i = new Intent(profile_activity.this, ToDoActivity.class);
 		startActivity(i);
 		overridePendingTransition(0,0);
 	}
 
 	public void finance(View view){
-		Intent i = new Intent(profile_activity.this, finance_activity.class);
+		Intent i = new Intent(profile_activity.this, FinanceActivity.class);
 		startActivity(i);
 		overridePendingTransition(0,0);
+	}
+
+	public void postLogout(View view){
+		Intent i = new Intent(profile_activity.this, logout_session.class);
+		startActivity(i, ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
+	}
+
+	public void postChangePassword(View view){
+		Intent i = new Intent(profile_activity.this, change_password.class);
+		startActivity(i);
+	}
+
+	public void postHelp(View view){
+		Intent i = new Intent(profile_activity.this, help_activity.class);
+		startActivity(i);
+	}
+
+	public void postAbout(View view){
+		Intent i = new Intent(profile_activity.this, about_activity.class);
+		startActivity(i);
 	}
 }
 	

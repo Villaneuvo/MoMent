@@ -19,7 +19,6 @@ package exportkit.xd;
 
 import android.app.Activity;
 import android.app.ActivityOptions;
-import android.media.Image;
 import android.os.Bundle;
 
 
@@ -29,7 +28,6 @@ import android.view.View;
 import android.content.Intent;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.database.DatabaseReference;
@@ -89,7 +87,7 @@ import com.google.firebase.database.FirebaseDatabase;
 				Boolean checkEmailPass =BantuDb.checkEmailPassword(email, password);
 				if (checkEmailPass){
 					Toast.makeText(view.getContext(), "Login successfull", Toast.LENGTH_SHORT).show();
-					Intent i = new Intent(login_session_activity.this, home_activity.class);
+					Intent i = new Intent(login_session_activity.this, HomeActivity.class);
 					startActivity(i);
 				}
 				else{

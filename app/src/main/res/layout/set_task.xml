@@ -66,7 +66,7 @@
 					android:layout_marginLeft="21dp"
 					android:layout_marginTop="79dp"
 					android:fontFamily="@font/montserrat_bold"
-					android:text="@string/kegiatan_kamis_string"
+					android:text="@string/set_task"
 					android:textColor="@color/kegiatan_kamis_color"
 					android:textSize="36sp"
 					android:textStyle="bold" />
@@ -109,7 +109,7 @@
 						android:background="@drawable/line_9_ek1_shape" />
 
 					<EditText
-						android:id="@+id/eg__push_up__sit_up__lay_up"
+						android:id="@+id/edtTask"
 						android:layout_width="290dp"
 						android:layout_height="40dp"
 						android:layout_marginLeft="14dp"
@@ -139,7 +139,7 @@
 						android:layout_height="52dp" />
 
 					<EditText
-						android:id="@+id/sentuh_untuk_mengatur_tanggal_pengeluran"
+						android:id="@+id/edtDate"
 						android:layout_width="290dp"
 						android:layout_height="30dp"
 						android:layout_marginLeft="14dp"
@@ -189,7 +189,7 @@
 						android:layout_height="52dp" />
 
 					<EditText
-						android:id="@+id/masukkan_keterangan_kegiatan_misal_push_up_50x___lay_up_50x__dll"
+						android:id="@+id/edtDescription"
 						android:layout_width="290dp"
 						android:layout_height="45dp"
 						android:layout_marginLeft="14dp"

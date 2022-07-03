@@ -42,9 +42,9 @@
 
 				<ImageView
 					android:id="@+id/app_background"
-					android:layout_width="415dp"
+					android:layout_width="392.8dp"
 					android:layout_height="700dp"
-					android:layout_marginStart="-22dp"
+					android:layout_marginStart="0dp"
 					android:layout_marginTop="-140dp"
 					android:contentDescription="app_background"
 					android:src="@drawable/app_background" />

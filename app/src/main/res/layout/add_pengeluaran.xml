@@ -112,16 +112,18 @@
 						android:contentDescription="rectangle_4_ek1"
 						android:src="@drawable/rectangle_4_ek1_pengeluaran" />
 
-					<TextView
-						android:id="@+id/masukkan_nama_barang_misal_aqua__minerale_le__dll_"
-						android:layout_width="285dp"
-						android:layout_height="16dp"
+					<EditText
+						android:id="@+id/edt_namaBarang"
+						android:layout_width="300dp"
+						android:layout_height="40dp"
 						android:layout_marginLeft="12dp"
-						android:layout_marginTop="58dp"
+						android:layout_marginTop="35dp"
+						android:background="@null"
 						android:fontFamily="@font/montserrat_light"
-						android:text="@string/masukkan_nama_barang_misal_aqua__minerale_le__dll__string"
-						android:textColor="@color/_13__april_2022_color"
-						android:textSize="10sp" />
+						android:hint="@string/masukkan_nama_barang_misal_aqua__minerale_le__dll__string"
+						android:inputType="text"
+						android:textColor="@color/black"
+						android:textSize="12sp" />
 
 					<TextView
 						android:id="@+id/nama_barang"
@@ -161,16 +163,17 @@
 						android:layout_width="324dp"
 						android:layout_height="52dp" />
 
-					<TextView android:id="@+id/masukkan_keterangan_barang_misal_aqua_250_ml___gojek_ayam_geprek__dll"
-						android:fontFamily="@font/montserrat_light"
-						android:textColor="@color/_13__april_2022_color"
+					<EditText
+						android:id="@+id/edt_keterangan"
+						android:layout_width="300dp"
+						android:layout_height="40dp"
 						android:layout_marginLeft="12dp"
-						android:layout_marginTop="58dp"
-						android:layout_width="305dp"
-						android:layout_height="16dp"
-						android:textSize="10sp"
-						android:text="@string/masukkan_keterangan_barang_misal_aqua_250_ml___gojek_ayam_geprek__dll_string"
-						 />
+						android:layout_marginTop="34dp"
+						android:background="@null"
+						android:fontFamily="@font/montserrat_light"
+						android:hint="@string/masukkan_keterangan_barang_misal_aqua_250_ml___gojek_ayam_geprek__dll_string"
+						android:textColor="@color/black"
+						android:textSize="12sp" />
 
 					<TextView
 						android:id="@+id/keterangan__opsional_"
@@ -210,16 +213,17 @@
 						android:layout_width="324dp"
 						android:layout_height="52dp" />
 
-					<TextView android:id="@+id/masukkan_jenis_pengeluaran_barang_misal_makanan__hiburan__dll"
-						android:fontFamily="@font/montserrat_light"
-						android:textColor="@color/_13__april_2022_color"
+					<EditText
+						android:id="@+id/edt_jenisPengeluaran"
+						android:layout_width="300dp"
+						android:layout_height="40dp"
 						android:layout_marginLeft="12dp"
-						android:layout_marginTop="58dp"
-						android:textSize="10sp"
-						android:layout_width="272dp"
-						android:layout_height="16dp"
-						android:text="@string/masukkan_jenis_pengeluaran_barang_misal_makanan__hiburan__dll_string"
-						 />
+						android:layout_marginTop="34dp"
+						android:background="@null"
+						android:fontFamily="@font/montserrat_light"
+						android:hint="@string/masukkan_jenis_pengeluaran_barang_misal_makanan__hiburan__dll_string"
+						android:textColor="@color/black"
+						android:textSize="12sp" />
 
 					<TextView
 						android:id="@+id/jenis_pengeluaran"
@@ -251,24 +255,26 @@
 					android:layout_height="wrap_content"
 					>
 
-					<ImageView android:id="@+id/rectangle_4_ek4"
-						android:src="@drawable/rectangle_4_ek4"
-						android:contentDescription="rectangle_4_ek4"
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="30dp"
+					<ImageView
+						android:id="@+id/rectangle_4_ek4"
 						android:layout_width="324dp"
-						android:layout_height="52dp" />
+						android:layout_height="52dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="30dp"
+						android:contentDescription="rectangle_4_ek4"
+						android:src="@drawable/rectangle_4_ek4" />
 
-					<TextView
-						android:id="@+id/sentuh_untuk_mengatur_tanggal_pengeluran"
-						android:layout_width="194dp"
-						android:layout_height="16dp"
+					<EditText
+						android:id="@+id/edt_tglPengeluaran"
+						android:layout_width="300dp"
+						android:layout_height="20dp"
 						android:layout_marginLeft="12dp"
-						android:layout_marginTop="58dp"
+						android:layout_marginTop="54dp"
+						android:background="@null"
 						android:fontFamily="@font/montserrat_light"
-						android:text="@string/tanggal_pengeluaran_string_text"
-						android:textColor="@color/_13__april_2022_color"
-						android:textSize="10sp" />
+						android:hint="@string/tanggal_pengeluaran_string_text"
+						android:textColor="@color/black"
+						android:textSize="12sp" />
 
 					<TextView
 						android:id="@+id/tanggal_pengeluaran"
@@ -282,12 +288,13 @@
 						android:textSize="14sp"
 						android:textStyle="bold" />
 
-					<View   android:id="@+id/line_8_ek3"
-						android:background="@drawable/line_time_shape"
-						 android:layout_marginStart="12dp"
-						android:layout_marginTop="74dp"
+					<View
+						android:id="@+id/line_8_ek3"
 						android:layout_width="300dp"
-						android:layout_height="1dp" />
+						android:layout_height="1dp"
+						android:layout_marginStart="12dp"
+						android:layout_marginTop="74dp"
+						android:background="@drawable/line_time_shape" />
 
 				</RelativeLayout>
 
@@ -306,21 +313,23 @@
 					android:layout_height="wrap_content"
 					>
 
-					<ImageView android:id="@+id/next_button_ek2"
-						android:src="@drawable/next_button_ek2"
-						android:contentDescription="next_button_ek2"
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
+					<ImageView
+						android:id="@+id/next_button_ek2"
 						android:layout_width="346dp"
-						android:layout_height="52dp" />
+						android:layout_height="52dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:contentDescription="next_button_ek2"
+						android:onClick="postSave"
+						android:src="@drawable/login_button" />
 
 					<TextView
 						android:id="@+id/save"
 						android:layout_width="77.24dp"
 						android:layout_height="31dp"
 						android:layout_gravity="center_horizontal|center"
-						android:layout_marginLeft="136dp"
-						android:layout_marginTop="8dp"
+						android:layout_marginLeft="132dp"
+						android:layout_marginTop="10dp"
 						android:fontFamily="@font/montserrat_semibold"
 						android:gravity="center"
 						android:text="@string/save_string"
@@ -330,13 +339,15 @@
 
 				</RelativeLayout>
 
-				<ImageView android:id="@+id/back_ek1"
-					android:src="@drawable/back_ek1"
-					android:contentDescription="back_ek1"
-					 android:layout_marginStart="21dp"
-					android:layout_marginTop="30dp"
+				<ImageView
+					android:id="@+id/back_ek1"
 					android:layout_width="25dp"
-					android:layout_height="25dp" />
+					android:layout_height="25dp"
+					android:layout_marginStart="21dp"
+					android:layout_marginTop="30dp"
+					android:contentDescription="back_ek1"
+					android:onClick="onBack"
+					android:src="@drawable/back_ek1" />
 
 				<View   android:id="@+id/line_9_ek1"
 					android:background="@drawable/line_9_ek1_shape"
@@ -345,16 +356,18 @@
 					android:layout_width="301dp"
 					android:layout_height="1dp" />
 
-				<TextView android:id="@+id/rp_0_ek3"
-					android:fontFamily="@font/montserrat_light"
-					android:textSize="12sp"
-					android:textColor="@color/_13__april_2022_color"
-					android:layout_marginLeft="41dp"
-					android:layout_marginTop="235dp"
-					android:layout_width="45dp"
+				<EditText
+					android:id="@+id/edt_nominalPengeluaran"
+					android:layout_width="300dp"
 					android:layout_height="23dp"
-					android:text="@string/rp_0_ek3_string"
-					 />
+					android:layout_marginLeft="41dp"
+					android:layout_marginTop="230dp"
+					android:background="@null"
+					android:fontFamily="@font/montserrat_light"
+					android:hint="@string/rp_0_ek3_string"
+					android:inputType="numberDecimal"
+					android:textColor="@color/black"
+					android:textSize="12sp" />
 
 				<TextView
 					android:id="@+id/masukkan_pengeluaran_misal__1_000_000"

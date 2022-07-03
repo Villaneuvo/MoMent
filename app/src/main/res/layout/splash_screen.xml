@@ -40,7 +40,7 @@
 
 				<ImageView
 					android:id="@+id/background_splash"
-					android:layout_width="392.5dp"
+					android:layout_width="392.8dp"
 					android:layout_height="896dp"
 					android:layout_marginStart="0dp"
 					android:layout_marginTop="-15dp"
@@ -59,7 +59,7 @@
 					android:id="@+id/simple_money_management_and_to_do_list_"
 					android:layout_width="360dp"
 					android:layout_height="31dp"
-					android:layout_marginLeft="18dp"
+					android:layout_marginLeft="20dp"
 					android:layout_marginTop="430dp"
 					android:fontFamily="@font/montserrat_semibold"
 					android:text="@string/jargon"

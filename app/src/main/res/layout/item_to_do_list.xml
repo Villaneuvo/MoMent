@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activities_1_ek1"
+    android:layout_marginTop="0dp"
+    android:layout_marginStart="22dp"
+    android:layout_width="wrap_content"
+    android:paddingTop="12dp"
+    android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/bg_kegiatan"
+            android:layout_width="342dp"
+            android:layout_height="145dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/bg_kegiatan_shape" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="140dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/kegiatan_senin_string"
+            android:textColor="@color/__bg__splash_screen_ek2_color"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/total_kegiatan"
+            android:layout_width="115dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="221dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/total_kegiatan___5_string"
+            android:textColor="@color/__bg__splash_screen_ek2_color"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtField"
+            android:layout_width="140dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="42dp"
+            android:fontFamily="@font/montserrat_light"
+            android:text="@string/belanja_bulanan_ek1_string"
+            android:textColor="@color/__bg__splash_screen_ek2_color"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/btndetail"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="221dp"
+            android:layout_marginTop="100dp"
+            android:contentDescription="rectangle_11"
+            android:src="@drawable/login_button" />
+
+        <TextView
+            android:id="@+id/detail"
+            android:layout_width="46dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="257dp"
+            android:layout_marginTop="107dp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="@string/detail_string"
+            android:textColor="@color/don_t_have_an_account__color"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+</RelativeLayout>

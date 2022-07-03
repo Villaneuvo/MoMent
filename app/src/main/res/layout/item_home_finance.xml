@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/finance_1"
+    android:layout_marginTop="0dp"
+    android:layout_marginStart="13dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <ImageView
+        android:id="@+id/rectangle_2"
+        android:layout_width="358dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:contentDescription="rectangle_2"
+        android:src="@drawable/rectangle_2" />
+
+    <ImageView
+        android:id="@+id/rectangle_10_ek1"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="84dp"
+        android:contentDescription="rectangle_10_ek1"
+        android:src="@drawable/rectangle_10_ek1" />
+
+    <TextView
+        android:id="@+id/pengeluaran_bulanan"
+        android:layout_width="164dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/pengeluaran_bulanan_string"
+        android:textColor="@color/don_t_have_an_account__color"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtLimit"
+        android:layout_width="115dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/limit___rp_1_000_000_string"
+        android:textColor="@color/don_t_have_an_account__color"
+        android:textSize="11sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/detail_ek3"
+        android:layout_width="45dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="267dp"
+        android:layout_marginTop="91dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="@string/detail_ek3_string"
+        android:textColor="@color/__bg__splash_screen_ek2_color"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtSaldo"
+        android:layout_width="128dp"
+        android:layout_height="23dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="42dp"
+        android:fontFamily="@font/montserrat_light"
+        android:text="@string/saldo___rp_500_000_string"
+        android:textColor="@color/don_t_have_an_account__color"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txtPengeluaran"
+        android:layout_width="166dp"
+        android:layout_height="23dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/montserrat_light"
+        android:text="@string/pengeluran___rp_800_000_string"
+        android:textColor="@color/don_t_have_an_account__color"
+        android:textSize="12sp" />
+
+</RelativeLayout>

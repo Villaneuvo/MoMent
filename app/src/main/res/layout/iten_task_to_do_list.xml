@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mRelativeLayoutToDo"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="0dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+    <ImageView
+        android:id="@+id/bgTask"
+        android:layout_width="318dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="0dp"
+        android:contentDescription="rectangle_2"
+        android:src="@drawable/unfinished_bg" />
+
+    <View
+        android:id="@+id/ellipse_5"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ellipse_5_shape" />
+
+    <TextView
+        android:id="@+id/txtTaskTitle"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat_light"
+        android:text="@string/holiday_string"
+        android:textColor="@color/password_color"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="70dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/montserrat_light"
+        android:text="@string/_04_12_string"
+        android:textColor="@color/password_color"
+        android:textSize="8sp" />
+
+</RelativeLayout>
+

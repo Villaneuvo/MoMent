@@ -204,12 +204,13 @@
 					android:contentDescription="rectangle_2"
 					android:src="@drawable/unfinished_bg" />
 
-				<View   android:id="@+id/ellipse_5"
-					android:background="@drawable/ellipse_5_shape"
-					 android:layout_marginStart="49dp"
-					android:layout_marginTop="243dp"
+				<View
+					android:id="@+id/ellipse_5"
 					android:layout_width="17dp"
-					android:layout_height="17dp" />
+					android:layout_height="17dp"
+					android:layout_marginStart="49dp"
+					android:layout_marginTop="243dp"
+					android:background="@drawable/ellipse_5_shape" />
 
 				<TextView
 					android:id="@+id/selesai_hari_ini"
@@ -238,16 +239,16 @@
 					android:layout_width="20dp"
 					android:layout_height="22dp" />
 
-				<TextView android:id="@+id/holiday"
-					android:fontFamily="@font/montserrat_light"
-					android:textSize="16sp"
-					android:textColor="@color/password_color"
-					android:layout_marginLeft="80dp"
-					android:layout_marginTop="236dp"
+				<TextView
+					android:id="@+id/holiday"
 					android:layout_width="75dp"
 					android:layout_height="29dp"
+					android:layout_marginLeft="80dp"
+					android:layout_marginTop="236dp"
+					android:fontFamily="@font/montserrat_light"
 					android:text="@string/holiday_string"
-					 />
+					android:textColor="@color/password_color"
+					android:textSize="16sp" />
 
 				<TextView
 					android:id="@+id/_04_12"
@@ -373,8 +374,8 @@
 
 				<TextView
 					android:id="@+id/bersihin_gedung_dpr"
-					android:layout_width="198dp"
-					android:layout_height="31dp"
+					android:layout_width="202dp"
+					android:layout_height="wrap_content"
 					android:layout_marginLeft="80dp"
 					android:layout_marginTop="468dp"
 					android:fontFamily="@font/montserrat_light"

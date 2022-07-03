@@ -23,10 +23,8 @@ import android.os.Bundle;
 
 
 import android.view.View;
-import android.widget.TextView;
-import android.widget.ImageView;
 
-public class to_do_field_1_activity extends Activity {
+    public class to_do_field_1_activity extends Activity {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -37,7 +35,7 @@ public class to_do_field_1_activity extends Activity {
 	}
 
 	public void backToDo(View view){
-		Intent i = new Intent(to_do_field_1_activity.this, to_do_activity.class);
+		Intent i = new Intent(to_do_field_1_activity.this, ToDoActivity.class);
 		startActivity(i);
 	}
 

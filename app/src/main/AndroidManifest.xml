@@ -17,7 +17,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Moment20">
         <activity
-            android:name=".to_do_field_non_setting_list"
+            android:name=".about_activity"
+            android:exported="false" />
+        <activity
+            android:name=".logout_session"
+            android:exported="false" />
+        <activity
+            android:name=".TaskMain"
             android:exported="false" />
         <activity
             android:name=".splash_screen_activity"
@@ -35,9 +41,9 @@
         <activity android:name=".create_password_activity" />
         <activity android:name=".forgot_password_session_activity" />
         <activity android:name=".check_email_activity" />
-        <activity android:name=".home_activity" />
-        <activity android:name=".to_do_activity" />
-        <activity android:name=".finance_activity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".ToDoActivity" />
+        <activity android:name=".FinanceActivity" />
         <activity android:name=".profile_activity" />
         <activity android:name=".sign_up_activity" />
         <activity android:name=".set_time_activity" />
@@ -46,14 +52,16 @@
         <activity android:name=".to_do_field_1_activity" />
         <activity android:name=".set_priority_template_activity" />
         <activity android:name=".login_error_session_activity" />
-        <activity android:name=".add_title_template_activity" />
+        <activity android:name=".AddTitleActivity" />
         <activity android:name=".set_task_activity" />
-        <activity android:name="exportkit.xd.analysis_activity"></activity>
-        <activity android:name="exportkit.xd.add_pengeluaran_activity"></activity>
-        <activity android:name="exportkit.xd.add_pemasukkan_activity"></activity>
-        <activity android:name="exportkit.xd.set_limit_template_activity"></activity>
-        <activity android:name="exportkit.xd.transaction_template_activity"></activity>
-        <activity android:name="exportkit.xd.signup_success_activity"></activity>
+        <activity android:name=".analysis_activity" />
+        <activity android:name=".add_pengeluaran_activity" />
+        <activity android:name=".add_pemasukkan_activity" />
+        <activity android:name=".set_limit_template_activity" />
+        <activity android:name=".transaction_template_activity" />
+        <activity android:name=".signup_success_activity" />
+        <activity android:name=".change_password" />
+        <activity android:name=".help_activity" />
     </application>
 
 </manifest>

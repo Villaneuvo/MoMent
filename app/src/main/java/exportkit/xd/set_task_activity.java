@@ -23,17 +23,27 @@ import android.os.Bundle;
 
 
 import android.view.View;
-import android.widget.ImageView;
-import android.widget.TextView;
+import android.widget.EditText;
+import android.widget.Toast;
 
-public class set_task_activity extends Activity {
+    public class set_task_activity extends Activity {
+
+	EditText edtTask, edtDate, edtDescription;
+	DataBaseHelperToDo MyDB;
+	ToDo toDo;
+
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.set_task);
-	
+
+		edtTask = findViewById(R.id.edtTask);
+		edtDate = findViewById(R.id.edtDate);
+		edtDescription = findViewById(R.id.edtDescription);
+		MyDB = new DataBaseHelperToDo(this);
+		toDo = new ToDo();
 	}
 
 	public void setTime(View view){
@@ -47,12 +57,22 @@ public class set_task_activity extends Activity {
 	}
 
 	public void saveTask(View view){
-		Intent i = new Intent(set_task_activity.this, to_do_field_non_setting_list.class);
-		startActivity(i);
+		String title = AddTitleActivity.Title;
+		toDo.setDescription(edtDescription.getText().toString());
+		boolean isInserted = MyDB.insertTask(edtTask.getText().toString(), edtDate.getText().toString(), edtDescription.getText().toString(), title);
+		if (isInserted == true) {
+			Toast.makeText(set_task_activity.this, "Data Tersimpan", Toast.LENGTH_SHORT).show();
+			Intent i = new Intent(set_task_activity.this, TaskMain.class);
+			startActivity(i);
+		}
+		else
+			Toast.makeText(set_task_activity.this, "Data Tidak Tersimpan", Toast.LENGTH_SHORT).show();
+
+
 	}
 
 	public void backToDo(View view){
-		Intent i = new Intent(set_task_activity.this, to_do_activity.class);
+		Intent i = new Intent(set_task_activity.this, ToDoActivity.class);
 		startActivity(i);
 	}
 }
